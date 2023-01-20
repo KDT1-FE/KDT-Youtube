@@ -3,6 +3,8 @@ $item-hover-color: rgba(0, 0, 0, 0.15);
 
 .frame {
   display: flex;
+  position: absolute;
+  top: 70px;
 
   .mainPageFrame {
     width: 100%;
@@ -10,12 +12,18 @@ $item-hover-color: rgba(0, 0, 0, 0.15);
     flex-direction: column;
     justify-content: flex-start;
     padding: 0 20px;
+    position: relative;
 
     .filterWrapper {
+      width: 100%;
       justify-content: left;
       align-items: center;
       display: flex;
       padding: 0 15px;
+      position: fixed;
+      top: 70px;
+      background-color: #fff;
+      z-index: 999;
 
       .filterItem {
         padding: 5px 10px;

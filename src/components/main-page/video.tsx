@@ -3,9 +3,9 @@ import styles from './video.module.scss';
 import { Link } from 'react-router-dom';
 import { useState, useEffect } from 'react';
 import useDay from '../../hooks/useDay';
-import dayjs, { Dayjs } from 'dayjs';
 import { videoInfo } from '../../api/axios';
 import { channelInfo } from '../../api/axios';
+import { getViewCount } from '../../hooks/useViews';
 
 type Props = {
   data: any;
@@ -31,6 +31,21 @@ const video = (props: Props) => {
       }
     }
     channelData();
+  }, []);
+
+  const [views, setViews] = useState({});
+
+  useEffect(() => {
+    async function viewsData() {
+      try {
+        const response = await videoInfo(data.id.videoId);
+        setViews(response.data.items);
+        console.log(response.data.items);
+      } catch (error) {
+        console.log('에러가 발생했습니다.');
+      }
+    }
+    viewsData();
   }, []);
 
   return (
@@ -62,8 +77,19 @@ const video = (props: Props) => {
       </div>
       <div className={styles.channelName}>{data.snippet.channelTitle}</div>
       <div className={styles.videoStatus}>
-        {/* <div>조회수 {today}</div>  */}
-        {/* <div>{videoData.contentDetails.duration}</div> */}
+        <div>
+          <span>
+            조회수
+            {Array.isArray(views)
+              ? views.map((item, idx) => {
+                  return (
+                    <span key={idx}>{' ' + getViewCount(item.statistics.viewCount) + ' '}</span>
+                  );
+                })
+              : null}
+          </span>
+          <span>{'· ' + useDay(data.snippet.publishedAt)}</span>
+        </div>
       </div>
     </Link>
   );
