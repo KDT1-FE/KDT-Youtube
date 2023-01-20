@@ -1,0 +1,29 @@
+{
+  "compileOnSave": true,
+  "compilerOptions": {
+    "sourceMap": true,
+    "removeComments": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    // "strict": true,
+    "target": "es2016",
+    "outDir": "./build/",
+    "baseUrl": "./",
+    "skipLibCheck": true,
+    "noEmit": true,
+    "noImplicitAny": false,
+    "downlevelIteration": true,
+    "lib": ["es6", "es2019.array", "dom"],
+    "rootDir": "src",
+    "module": "commonjs",
+    "allowSyntheticDefaultImports": true,
+    "resolveJsonModule": true,
+    "moduleResolution": "node",
+    "noFallthroughCasesInSwitch": true,
+    "isolatedModules": true,
+    "allowJs": true,
+    "jsx": "react-jsx"
+  },
+  "include": ["./src/**/*", "./custom.d.ts"],
+  "exclude": ["node_modules"]
+}

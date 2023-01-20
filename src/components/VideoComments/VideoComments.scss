@@ -1,0 +1,59 @@
+$font-gray: #aaa;
+
+.VideoComments {
+  padding: 1rem 0;
+
+  .commentCount {
+    padding: 1.5rem 0;
+    font-weight: bold;
+    font-size: 1rem;
+  }
+}
+
+.VideoComments li {
+  display: flex;
+  padding: 1.5rem 0;
+
+  .profileImg img {
+    width: 40px;
+    margin-right: 2rem;
+    border-radius: 50%;
+  }
+
+  .commentMain {
+    .user {
+      display: flex;
+      p {
+        font-weight: bold;
+        font-size: 1rem;
+      }
+      span {
+        padding: 0 0.8rem;
+        color: $font-gray;
+        font-size: 0.8rem;
+      }
+    }
+
+    .comment {
+      padding: 1rem 0;
+      font-size: 1rem;
+      line-height: 1.5rem;
+    }
+
+    .btns {
+      display: flex;
+      padding-top: 0.5rem;
+      span {
+        color: $font-gray;
+        font-weight: bold;
+      }
+      .btn {
+        margin-right: 1.25rem;
+        &:nth-child(1) svg {
+          margin-right: 0.5rem;
+          vertical-align: bottom;
+        }
+      }
+    }
+  }
+}
