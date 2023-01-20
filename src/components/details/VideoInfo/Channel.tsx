@@ -1,4 +1,5 @@
 import style from './Channel.module.scss';
+import { getViewCount } from '../../../hooks/useViews';
 
 type Props = {
   item: any;
@@ -12,7 +13,7 @@ const Channel = ({ item }: Props) => {
       </span>
       <div>
         <h4>{item.snippet.title}</h4>
-        <p>구독자 {item.statistics.subscriberCount}명</p>
+        <p>구독자 {getViewCount(item.statistics.subscriberCount)}명</p>
       </div>
     </div>
   );
