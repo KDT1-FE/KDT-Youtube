@@ -10,14 +10,10 @@ type Props = {
 const RelatedVideos = ({ videoId }: Props) => {
   const [relatedVideos, setRelatedVideos] = useState({});
 
-  const data = {
-    maxResults: 2,
-  };
-
   useEffect(() => {
     async function fetchData() {
       try {
-        const response = await relatedToVideo(videoId, data);
+        const response = await relatedToVideo(videoId);
         setRelatedVideos(response.data.items);
       } catch (error) {
         console.log('에러가 발생했습니다.');
