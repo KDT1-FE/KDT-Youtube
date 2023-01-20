@@ -1,5 +1,6 @@
 import { useEffect, useState } from 'react';
 import { channelInfo } from '../../../api/axios';
+import { getViewCount } from '../../../hooks/useViews';
 import style from './index.module.scss';
 import Channel from './Channel';
 
@@ -10,32 +11,6 @@ type Props = {
 const VideoInfo = ({ item }: Props) => {
   const [channel, setChannel] = useState({});
   let channelId = item.snippet.channelId;
-  let like = 223000;
-  let dislike = 1000;
-
-  function numberToKorean(number: number) {
-    var inputNumber: number = number < 0 ? 0 : number;
-    var unitWords = ['', '천', '만', '억'];
-    var splitUnit = 1000;
-    var splitCount = unitWords.length;
-    var resultArray = [];
-    var resultString = '';
-
-    for (var i = 0; i < splitCount; i++) {
-      var unitResult = (inputNumber % Math.pow(splitUnit, i + 1)) / Math.pow(splitUnit, i);
-      unitResult = Math.floor(unitResult);
-      if (unitResult > 0) {
-        resultArray[i] = unitResult;
-      }
-    }
-
-    for (var i = 0; i < resultArray.length; i++) {
-      if (!resultArray[i]) continue;
-      resultString = String(resultArray[i]) + unitWords[i] + resultString;
-    }
-
-    return resultString;
-  }
 
   useEffect(() => {
     async function channelData() {
@@ -47,7 +22,7 @@ const VideoInfo = ({ item }: Props) => {
       }
     }
     channelData();
-  }, []);
+  }, [channelId]);
 
   return (
     <div className={style.videoTitle}>
@@ -93,7 +68,7 @@ const VideoInfo = ({ item }: Props) => {
                   </g>
                 </g>
               </svg>
-              {item.statistics.likeCount}
+              {getViewCount(item.statistics.likeCount)}
             </div>
             <div className={style.unLike}>
               <svg

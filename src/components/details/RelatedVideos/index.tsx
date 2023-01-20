@@ -19,7 +19,6 @@ const RelatedVideos = ({ videoId }: Props) => {
       try {
         const response = await relatedToVideo(videoId, data);
         setRelatedVideos(response.data.items);
-        console.log(response.data);
       } catch (error) {
         console.log('에러가 발생했습니다.');
       }
