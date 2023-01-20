@@ -5,7 +5,6 @@
 }
 
 .video {
-  // display: flex;
   position: relative;
   .duration {
     position: absolute;
@@ -19,6 +18,12 @@
     bottom: 5px;
     right: 0;
   }
+}
+
+.iframe {
+  width: 330px;
+  height: 180px;
+  border-radius: 10px;
 }
 
 .img {
