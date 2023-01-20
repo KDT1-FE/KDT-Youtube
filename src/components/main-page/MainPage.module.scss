@@ -4,13 +4,23 @@ $item-hover-color: rgba(0, 0, 0, 0.15);
 .frame {
   display: flex;
   position: relative;
+
+  width: 100%;
   top: 70px;
 
   .filterWrapper {
+    width: 100%;
+    position: sticky;
+    top: 0;
+    z-index: 4;
+
     justify-content: left;
+    align-self: start;
     align-items: center;
     display: flex;
     padding: 0 15px;
+    background-color: #fff;
+    padding-bottom: 8px;
 
     .filterItem {
       padding: 5px 10px;
@@ -27,6 +37,7 @@ $item-hover-color: rgba(0, 0, 0, 0.15);
 .videoPage {
   position: relative;
   box-sizing: border-box;
+  justify-self: flex-start;
   width: 100%;
 
   height: calc(100vh - 70px);

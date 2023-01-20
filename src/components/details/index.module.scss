@@ -4,19 +4,20 @@ $breakpoint-desktop: 1067px;
 .detailWrap {
   margin: 0 auto;
   display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
   padding: 94px 0;
-  width: 1066px;
+  gap: 20px;
+
   .videoContent {
+    width: 100%;
+    max-width: 1366px;
     iframe {
       outline: none;
       border: none;
     }
   }
-}
-
-@media screen {
 }
 
 @mixin tablet {

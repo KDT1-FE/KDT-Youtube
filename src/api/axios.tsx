@@ -18,6 +18,7 @@ export const search = (keyword: string, data: object = {}) => {
     part: 'snippet',
     maxResults: 10,
     q: keyword,
+    type: 'video',
   };
   return instance.get(`/search`, { params: { ...sending, ...data } });
 };
