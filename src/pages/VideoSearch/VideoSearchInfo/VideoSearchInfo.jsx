@@ -8,14 +8,15 @@ function VideoSearchInfo({ videoId, channelId }) {
   const [cheenelData, setCheenelData] = useState();
 
   useEffect(() => {
-    const getData = async () => {
-      const videoDataRes = await getVideoDetail(videoId);
-      setVideoData(videoDataRes);
-
-      const channelDataRes = await getChannelInfo(channelId);
-      setCheenelData(channelDataRes.snippet.thumbnails.default.url);
-    };
-    getData();
+    if (!videoData) {
+      const getData = async () => {
+        const videoDataRes = await getVideoDetail(videoId);
+        setVideoData(videoDataRes);
+        const channelDataRes = await getChannelInfo(channelId);
+        setCheenelData(channelDataRes.snippet.thumbnails.default.url);
+      };
+      getData();
+    }
   });
 
   return (
