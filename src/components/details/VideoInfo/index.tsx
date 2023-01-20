@@ -47,7 +47,7 @@ const VideoInfo = ({ item }: Props) => {
       }
     }
     channelData();
-  }, [item, channel, channelId]);
+  }, []);
 
   return (
     <div className={style.videoTitle}>

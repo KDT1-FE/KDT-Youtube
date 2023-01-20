@@ -25,7 +25,7 @@ const RelatedVideos = ({ videoId }: Props) => {
       }
     }
     fetchData();
-  }, [videoId, relatedVideos]);
+  }, [videoId]);
 
   return (
     <div style={{ width: '402px' }}>

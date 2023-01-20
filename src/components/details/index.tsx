@@ -28,7 +28,7 @@ const details = () => {
       }
     }
     videoData();
-  }, [videoId, video]);
+  }, []);
 
   return (
     <div className={style.detailWrap}>
