@@ -10,7 +10,7 @@ const Commentlist = (Props: Props) => {
   const [commentList, setCommentList] = useState([]);
 
   const data = {
-    part: 'snippet',
+    part: 'replies,snippet',
     maxResults: 3,
     order: 'relevance',
   };
@@ -32,7 +32,7 @@ const Commentlist = (Props: Props) => {
 
   return (
     <div>
-      {commentList.map((comment, index) => (
+      {Array.from(commentList).map((comment, index) => (
         <Comment key={index} comment={comment} />
       ))}
     </div>

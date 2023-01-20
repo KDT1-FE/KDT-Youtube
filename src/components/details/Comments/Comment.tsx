@@ -51,16 +51,7 @@ const Comment = ({ comment }: Props) => {
           </span>
           <span className={styles.btnReply}>답글</span>
         </div>
-        <div className="reply">
-          {/* {totalReplyCount ? (
-            <button className={[styles.btnView].join('')} onClick={toggleShow}>
-              답글 {totalReplyCount}개
-            </button>
-          ) : (
-            ''
-          )} */}
-          <Reply reply={comment} />
-        </div>
+        <Reply key={comment.etag} reply={comment} />
       </div>
     </div>
   );

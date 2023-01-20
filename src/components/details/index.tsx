@@ -4,6 +4,7 @@ import { videoInfo } from '../../api/axios';
 import Info from './Info';
 import RelatedVideos from './RelatedVideos';
 import style from './index.module.scss';
+import Comments from './Comments';
 
 interface videoIdPrams {
   videoId?: string;
@@ -46,6 +47,7 @@ const details = () => {
           : null}
       </div>
       <RelatedVideos videoId={videoId} />
+      <Comments />
     </div>
   );
 };
