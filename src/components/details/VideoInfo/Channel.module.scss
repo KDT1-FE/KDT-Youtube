@@ -1,0 +1,19 @@
+.channelContent {
+  display: flex;
+  gap: 15px;
+  span {
+    border-radius: 50px;
+    overflow: hidden;
+    width: 45px;
+    height: 45px;
+    display: flex;
+  }
+  h4 {
+    font-size: 18px;
+    margin: 0;
+  }
+  p {
+    font-size: 13px;
+    margin: 0;
+  }
+}

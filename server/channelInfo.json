@@ -1,0 +1,49 @@
+{
+  "kind": "youtube#channelListResponse",
+  "etag": "LPjKI7y70WpC1INxya_G6rZyG5g",
+  "pageInfo": { "totalResults": 1, "resultsPerPage": 5 },
+  "items": [
+    {
+      "kind": "youtube#channel",
+      "etag": "BWnq9ska9nx6-fcFH0e4Ms6bFcg",
+      "id": "UCpDJl2EmP7Oh90Vylx0dZtA",
+      "snippet": {
+        "title": "Spinnin' Records",
+        "description": "The Spinnin’ Records YouTube channel is the home for all music videos of the world’s leading dance record label!\n\nWe feature the latest music videos by Spinnin’ artists like Afrojack, KSHMR, Ummet Ozcan, Blasterjaxx, Timmy Trumpet, Tujamo, Alok, Mike Williams, Lucas & Steve and many, many more! Expect daily uploads of official music videos, lyric videos and official audio across genres like dance, house, electro house, future house, deep house, big room and trap.\n\nMake sure to subscribe to Spinnin' Records: http://bit.do/spinnintv.. and turn on notifications to stay updated with all new uploads!🔔\n\nFollow Spinnin’ Records:\nhttps://open.spotify.com/user/spinninrecordsofficial\nhttps://soundcloud.com/spinninrecords\nhttps://facebook.com/SpinninRecords\nhttps://instagram.com/spinninrecords\nhttps://twitter.com/SpinninRecords\nhttps://spinninrecords.com",
+        "customUrl": "@spinninrecords",
+        "publishedAt": "2007-07-12T12:23:44Z",
+        "thumbnails": {
+          "default": {
+            "url": "https://yt3.ggpht.com/ytc/AMLnZu9ppdgul4nVU7Z1bix1Bj6GiuB8zNKJUPKVzOsBkg=s88-c-k-c0x00ffffff-no-rj",
+            "width": 88,
+            "height": 88
+          },
+          "medium": {
+            "url": "https://yt3.ggpht.com/ytc/AMLnZu9ppdgul4nVU7Z1bix1Bj6GiuB8zNKJUPKVzOsBkg=s240-c-k-c0x00ffffff-no-rj",
+            "width": 240,
+            "height": 240
+          },
+          "high": {
+            "url": "https://yt3.ggpht.com/ytc/AMLnZu9ppdgul4nVU7Z1bix1Bj6GiuB8zNKJUPKVzOsBkg=s800-c-k-c0x00ffffff-no-rj",
+            "width": 800,
+            "height": 800
+          }
+        },
+        "localized": {
+          "title": "Spinnin' Records",
+          "description": "The Spinnin’ Records YouTube channel is the home for all music videos of the world’s leading dance record label!\n\nWe feature the latest music videos by Spinnin’ artists like Afrojack, KSHMR, Ummet Ozcan, Blasterjaxx, Timmy Trumpet, Tujamo, Alok, Mike Williams, Lucas & Steve and many, many more! Expect daily uploads of official music videos, lyric videos and official audio across genres like dance, house, electro house, future house, deep house, big room and trap.\n\nMake sure to subscribe to Spinnin' Records: http://bit.do/spinnintv.. and turn on notifications to stay updated with all new uploads!🔔\n\nFollow Spinnin’ Records:\nhttps://open.spotify.com/user/spinninrecordsofficial\nhttps://soundcloud.com/spinninrecords\nhttps://facebook.com/SpinninRecords\nhttps://instagram.com/spinninrecords\nhttps://twitter.com/SpinninRecords\nhttps://spinninrecords.com"
+        },
+        "country": "NL"
+      },
+      "contentDetails": {
+        "relatedPlaylists": { "likes": "", "uploads": "UUpDJl2EmP7Oh90Vylx0dZtA" }
+      },
+      "statistics": {
+        "viewCount": "20647807809",
+        "subscriberCount": "29900000",
+        "hiddenSubscriberCount": false,
+        "videoCount": "11046"
+      }
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+$item-color: rgba(0, 0, 0, 0.05);
+$item-hover-color: rgba(0, 0, 0, 0.15);
+
+.frame {
+  display: flex;
+  position: relative;
+
+  width: 100%;
+  top: 70px;
+
+  .filterWrapper {
+    width: 100%;
+    position: sticky;
+    top: 0;
+    z-index: 4;
+
+    justify-content: left;
+    align-self: start;
+    align-items: center;
+    display: flex;
+    padding: 0 15px;
+    background-color: #fff;
+    padding-bottom: 8px;
+
+    .filterItem {
+      padding: 5px 10px;
+      margin: 6px;
+      border-radius: 10px;
+      background-color: $item-color;
+      &:hover {
+        cursor: pointer;
+        background-color: $item-hover-color;
+      }
+    }
+  }
+}
+.videoPage {
+  position: relative;
+  box-sizing: border-box;
+  justify-self: flex-start;
+  width: 100%;
+
+  height: calc(100vh - 70px);
+  overflow-y: scroll;
+
+  display: flex;
+  flex-direction: column;
+
+  justify-content: flex-start;
+  align-items: center;
+  padding: 0 20px;
+}

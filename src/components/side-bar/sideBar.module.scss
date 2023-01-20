@@ -1,0 +1,36 @@
+$item-hover-color: rgba(0, 0, 0, 0.05);
+.sideBarContainerWrapper {
+  height: calc(100vh - 100px);
+  box-sizing: border-box;
+}
+
+.sideBarContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+  box-sizing: border-box;
+
+  .sideBarIconWrapper {
+    font-size: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 60px;
+    text-decoration: none;
+    padding: 7px 5px;
+    color: #000;
+    text-decoration: none;
+    &:hover {
+      border-radius: 10px;
+      background-color: $item-hover-color;
+    }
+    .sideBarIconInner {
+      width: 30px;
+      padding: 5px 0 5px 0;
+    }
+  }
+}

@@ -1,0 +1,83 @@
+$btn-hover-color: rgb(232, 232, 232);
+
+.videoTitle {
+  padding: 15px 0;
+  h1 {
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 12px;
+  }
+  .videoContent {
+    display: flex;
+    justify-content: space-between;
+    .videoButton {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      span {
+        background: #f2f2f2;
+        display: flex;
+        border-radius: 30px;
+        padding: 0 18px 0 12px;
+        height: 45px;
+        line-height: 45px;
+        align-items: center;
+        cursor: pointer;
+        overflow: hidden;
+        &:first-child {
+          padding: 0;
+          &:hover {
+            background-color: #f2f2f2;
+          }
+        }
+        &:last-child {
+          padding: 0 12px;
+          svg {
+            padding-right: 0;
+          }
+        }
+        &:hover {
+          background-color: $btn-hover-color;
+        }
+        svg {
+          width: 28px !important;
+          height: 28px !important;
+          padding-right: 5px;
+        }
+        .like {
+          padding: 0 15px 0 15px;
+          svg {
+            top: 6px;
+            position: relative;
+            padding-right: 2px;
+          }
+          &:hover {
+            background-color: $btn-hover-color;
+          }
+        }
+        .unLike {
+          padding: 0 18px 0 15px;
+          position: relative;
+          svg {
+            transform: rotate(-180deg);
+            position: relative;
+            top: 10px;
+            padding-right: 0;
+          }
+          &:hover {
+            background-color: $btn-hover-color;
+          }
+          &::before {
+            content: '';
+            width: 1px;
+            height: 32px;
+            top: 7px;
+            left: -1px;
+            background-color: #ddd;
+            position: absolute;
+          }
+        }
+      }
+    }
+  }
+}

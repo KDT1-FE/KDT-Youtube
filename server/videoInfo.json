@@ -1,0 +1,88 @@
+{
+  "kind": "youtube#videoListResponse",
+  "etag": "weTrVJjjAbEwgoXoInc2P6wz0a8",
+  "items": [
+    {
+      "kind": "youtube#video",
+      "etag": "cetXa8guC89nC8FrpLTnNHv5h6M",
+      "id": "gCYcHz2k5x0",
+      "snippet": {
+        "publishedAt": "2013-06-17T14:30:09Z",
+        "channelId": "UCpDJl2EmP7Oh90Vylx0dZtA",
+        "title": "Martin Garrix - Animals (Official Video)",
+        "description": "Martin Garrix and Spinnin' Records proudly present the official video for Animals. Subscribe to Spinnin TV NOW : http://bit.ly/SPINNINTV\n\nLike this track? Add it to your favourite Spotify/Apple Music playlist HERE: https://martingarrix.lnk.to/animals!YT\n\nJoin Martin Garrix: \nhttp://facebook.com/martingarrix\nhttp://twitter.com/martingarrix \n\nDirected by: Mark Loonen / http://www.mrk1.nl\n---\n\nThe Spinnin’ Records YouTube channel is the home for all music videos of the world’s leading dance record label!\n\nWe feature the latest music videos by Spinnin’ artists like Oliver Heldens, Sam Feldt, KSHMR, Ummet Ozcan, Blasterjaxx, Merk & Kremont, Timmy Trumpet, Tujamo, Alok, Curbi, Mike Williams, Lucas & Steve and many, many more! Expect daily uploads of official music videos, lyric videos and artwork videos across genres like dance, house, electro house, future house, deep house, big room and trap.\n\nMake sure to subscribe to Spinnin' Records: http://bit.do/spinnintv \n..and turn on notifications to stay updated with all new uploads!🔔\n\nFollow Spinnin’ Records:\nhttps://open.spotify.com/user/spinninrecordsofficial\nhttps://soundcloud.com/spinninrecords\nhttps://facebook.com/SpinninRecords\nhttps://instagram.com/spinninrecords\nhttps://twitter.com/SpinninRecords\nhttps://spinninrecords.com\n\n#MartinGarrix\n#SpinninRecords\n#Spinnin",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/gCYcHz2k5x0/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/gCYcHz2k5x0/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/gCYcHz2k5x0/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/gCYcHz2k5x0/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          }
+        },
+        "channelTitle": "Spinnin' Records",
+        "tags": [
+          "animals",
+          "official video",
+          "Electro House (Musical Genre)",
+          "Spinnin' Records (Record Label)",
+          "Martin Garrix",
+          "spinnin",
+          "spinning",
+          "spinnin records",
+          "spinning records",
+          "martin garrix animals",
+          "animals official video",
+          "animals martin garrix",
+          "electro house",
+          "martin garrix animals official video",
+          "martin garrix official video",
+          "animals official",
+          "official music video",
+          "big room",
+          "martin garrix official",
+          "official video animals",
+          "edm"
+        ],
+        "categoryId": "10",
+        "liveBroadcastContent": "none",
+        "localized": {
+          "title": "Martin Garrix - Animals (Official Video)",
+          "description": "Martin Garrix and Spinnin' Records proudly present the official video for Animals. Subscribe to Spinnin TV NOW : http://bit.ly/SPINNINTV\n\nLike this track? Add it to your favourite Spotify/Apple Music playlist HERE: https://martingarrix.lnk.to/animals!YT\n\nJoin Martin Garrix: \nhttp://facebook.com/martingarrix\nhttp://twitter.com/martingarrix \n\nDirected by: Mark Loonen / http://www.mrk1.nl\n---\n\nThe Spinnin’ Records YouTube channel is the home for all music videos of the world’s leading dance record label!\n\nWe feature the latest music videos by Spinnin’ artists like Oliver Heldens, Sam Feldt, KSHMR, Ummet Ozcan, Blasterjaxx, Merk & Kremont, Timmy Trumpet, Tujamo, Alok, Curbi, Mike Williams, Lucas & Steve and many, many more! Expect daily uploads of official music videos, lyric videos and artwork videos across genres like dance, house, electro house, future house, deep house, big room and trap.\n\nMake sure to subscribe to Spinnin' Records: http://bit.do/spinnintv \n..and turn on notifications to stay updated with all new uploads!🔔\n\nFollow Spinnin’ Records:\nhttps://open.spotify.com/user/spinninrecordsofficial\nhttps://soundcloud.com/spinninrecords\nhttps://facebook.com/SpinninRecords\nhttps://instagram.com/spinninrecords\nhttps://twitter.com/SpinninRecords\nhttps://spinninrecords.com\n\n#MartinGarrix\n#SpinninRecords\n#Spinnin"
+        }
+      },
+      "contentDetails": {
+        "duration": "PT3M12S",
+        "dimension": "2d",
+        "definition": "hd",
+        "caption": "false",
+        "licensedContent": true,
+        "contentRating": {},
+        "projection": "rectangular"
+      },
+      "statistics": {
+        "viewCount": "1608754286",
+        "likeCount": "11285987",
+        "favoriteCount": "0",
+        "commentCount": "335625"
+      },
+      "player": {
+        "embedHtml": "<iframe width=\"480\" height=\"270\" src=\"//www.youtube.com/embed/gCYcHz2k5x0\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen></iframe>"
+      }
+    }
+  ],
+  "pageInfo": { "totalResults": 1, "resultsPerPage": 1 }
+}
