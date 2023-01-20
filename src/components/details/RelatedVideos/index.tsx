@@ -10,16 +10,11 @@ type Props = {
 const RelatedVideos = ({ videoId }: Props) => {
   const [relatedVideos, setRelatedVideos] = useState({});
 
-  const data = {
-    maxResults: 2,
-  };
-
   useEffect(() => {
     async function fetchData() {
       try {
-        const response = await relatedToVideo(videoId, data);
+        const response = await relatedToVideo(videoId);
         setRelatedVideos(response.data.items);
-        console.log(response.data);
       } catch (error) {
         console.log('에러가 발생했습니다.');
       }
@@ -29,12 +24,12 @@ const RelatedVideos = ({ videoId }: Props) => {
 
   return (
     <div style={{ width: '402px' }}>
-      <ul>
+      <ul style={{ padding: 0, margin: '0 0 8px 0' }}>
         {Array.isArray(relatedVideos) ? (
           relatedVideos.map((item, idx) => {
             return (
-              <Link to={'/video/' + item.id.videoId}>
-                <Video item={item} key={idx} />
+              <Link to={'/video/' + item.id.videoId} key={idx}>
+                <Video item={item} />
               </Link>
             );
           })

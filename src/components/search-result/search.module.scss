@@ -5,8 +5,11 @@
 }
 
 .video {
-  // display: flex;
   position: relative;
+  width: 320px;
+  height: 180px;
+  border-radius: 10px;
+  background-color: black;
   .duration {
     position: absolute;
     font-size: 14px;
@@ -21,9 +24,15 @@
   }
 }
 
+.iframe {
+  width: 320px;
+  height: 180px;
+  border-radius: 10px;
+}
+
 .img {
   object-fit: cover;
-  width: 330px;
+  width: 320px;
   height: 180px;
   border-radius: 10px;
 }
