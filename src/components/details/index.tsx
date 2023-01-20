@@ -45,10 +45,9 @@ const details = () => {
               return <Info item={item} key={idx} />;
             })
           : null}
-        <Comments />
+        <Comments videoId={videoId} />
       </div>
       <RelatedVideos videoId={videoId} />
-      <Comments />
     </div>
   );
 };

@@ -29,7 +29,7 @@ const RelatedVideos = ({ videoId }: Props) => {
 
   return (
     <div style={{ width: '402px' }}>
-      <ul>
+      <ul style={{ padding: 0, margin: '0 0 8px 0' }}>
         {Array.isArray(relatedVideos) ? (
           relatedVideos.map((item, idx) => {
             return (

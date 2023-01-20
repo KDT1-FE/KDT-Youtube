@@ -70,7 +70,7 @@ const Reply = ({ reply }: Props) => {
                 </div>
               );
             })
-          : 'no replies'}
+          : ''}
       </div>
     </div>
   );

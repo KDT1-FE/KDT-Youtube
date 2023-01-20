@@ -2,11 +2,13 @@ import React, { useEffect, useState } from 'react';
 import Comment from './Comment';
 import { commentThreads } from '../../../api/axios';
 
-type Props = {};
+type Props = {
+  videoId: string;
+};
 
-const videoId = 'CIrR0-nkPfI';
+// const videoId = 'CIrR0-nkPfI';
 
-const Commentlist = (Props: Props) => {
+const Commentlist = ({ videoId }: Props) => {
   const [commentList, setCommentList] = useState([]);
 
   const data = {
@@ -21,7 +23,6 @@ const Commentlist = (Props: Props) => {
       try {
         const res = await commentThreads(videoId, data);
         setCommentList(res.data.items);
-        console.log(res.data.items);
       } catch (error) {
         if (error instanceof Error) alert('조회 실패:' + error.message);
         else alert('조회실패');
