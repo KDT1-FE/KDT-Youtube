@@ -1,3 +1,5 @@
+$btn-hover-color: rgb(232, 232, 232);
+
 .videoTitle {
   padding: 15px 0;
   h1 {
@@ -30,9 +32,12 @@
         }
         &:last-child {
           padding: 0 12px;
+          svg {
+            padding-right: 0;
+          }
         }
         &:hover {
-          background-color: #ddd;
+          background-color: $btn-hover-color;
         }
         svg {
           width: 28px !important;
@@ -47,11 +52,11 @@
             padding-right: 2px;
           }
           &:hover {
-            background-color: #ddd;
+            background-color: $btn-hover-color;
           }
         }
         .unLike {
-          padding: 0 15px 0 10px;
+          padding: 0 18px 0 15px;
           position: relative;
           svg {
             transform: rotate(-180deg);
@@ -60,14 +65,14 @@
             padding-right: 0;
           }
           &:hover {
-            background-color: #ddd;
+            background-color: $btn-hover-color;
           }
           &::before {
             content: '';
             width: 1px;
             height: 32px;
             top: 7px;
-            left: 0px;
+            left: -1px;
             background-color: #ddd;
             position: absolute;
           }
