@@ -12,10 +12,6 @@ type Props = {
 };
 
 const video = (props: Props) => {
-  const truncate = (str: string, n: number) => {
-    return str?.length > n ? str.substring(0, n) + '...' : str;
-  };
-
   const data = props.data;
 
   const [channel, setChannel] = useState({});
@@ -39,7 +35,7 @@ const video = (props: Props) => {
         <img
           src={data.snippet.thumbnails.high.url}
           alt="thumbnail image"
-          className={styles.videoView}
+          className={styles.thumbnails}
         />
       </div>
       <div className={styles.videoInfo}>
@@ -57,7 +53,7 @@ const video = (props: Props) => {
               })
             : null}
         </div>
-        <div className={styles.videoTitle}>{truncate(data.snippet.title, 50)}</div>
+        <div className={styles.videoTitle}>{data.snippet.title}</div>
         <div className={styles.videoToggle}></div>
       </div>
       <div className={styles.channelName}>{data.snippet.channelTitle}</div>
