@@ -1,12 +1,21 @@
 import React from 'react';
+import { useState, useEffect } from 'react';
 import styles from './header.module.scss';
+import HeaderModal from './headerModal';
 
 type Props = {};
 
 const Right = (props: Props) => {
+  const [modal, setModal] = useState(false);
   return (
     <div id="personal-function" className={styles.areaComponent}>
-      <div id="make-video" className={styles.appIconWrapper}>
+      <div
+        id="make-video"
+        className={styles.appIconWrapper}
+        onMouseOver={() => setModal(true)}
+        onMouseOut={() => setModal(false)}
+      >
+        {modal && <HeaderModal />}
         <div className={styles.appIconInner}>
           <svg
             viewBox="0 0 24 24"

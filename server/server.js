@@ -29,7 +29,7 @@ const videoData = JSON.parse(videoInfo);
 
 app.get('/search', (req, res) => {
   console.log('search\n', req.query);
-  res.status(201).json(search);
+  res.json(search);
 });
 
 app.get('/commentThreads', (req, res) => {

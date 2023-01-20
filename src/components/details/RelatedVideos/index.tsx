@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-import { relatedToVideo } from '../../api/axios';
+import { relatedToVideo } from '../../../api/axios';
 import { Link } from 'react-router-dom';
 import Video from './Video';
 
@@ -19,12 +19,13 @@ const RelatedVideos = ({ videoId }: Props) => {
       try {
         const response = await relatedToVideo(videoId, data);
         setRelatedVideos(response.data.items);
+        console.log(response.data);
       } catch (error) {
         console.log('에러가 발생했습니다.');
       }
     }
     fetchData();
-  }, []);
+  }, [videoId]);
 
   return (
     <div style={{ width: '402px' }}>
@@ -33,7 +34,7 @@ const RelatedVideos = ({ videoId }: Props) => {
           relatedVideos.map((item, idx) => {
             return (
               <Link to={'/video/' + item.id.videoId}>
-                <Video key={idx} item={item} />
+                <Video item={item} key={idx} />
               </Link>
             );
           })

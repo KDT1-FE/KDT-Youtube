@@ -7,6 +7,7 @@ type Props = {};
 
 const videoContainer = (props: Props) => {
   const [searchData, setSearchData] = useState([]);
+  const [columns, setColmuns] = useState(4);
 
   // 페이지 로드시 검색결과를 받아온다 , 자동 추천 없으므로 임의
   useEffect(() => {
@@ -14,7 +15,7 @@ const videoContainer = (props: Props) => {
     console.time('rendering');
     const searchResult = async () => {
       let toggle = false;
-      const response: any = await search(`고양이`).catch((err) => {
+      const response: any = await search(`리액트/popular`).catch((err) => {
         toggle = err ? true : false;
       });
       if (toggle) {
@@ -29,7 +30,36 @@ const videoContainer = (props: Props) => {
     searchResult();
   }, []);
 
-  return <Videos rowArray={searchData} />;
+  function columnsVideo() {
+    const videoArray = [];
+
+    let temp: object[] = [];
+    for (let i = 0; i < searchData.length; i++) {
+      console.log('i', i);
+      console.log(i % columns);
+      if (i !== 0 && i % columns === 0) {
+        console.log('temp', temp);
+        videoArray.push(temp);
+        temp = [];
+      }
+      temp.push(searchData[i]);
+    }
+    while (temp.length < columns) {
+      temp.push({ tag: 'empty' });
+    }
+    videoArray.push(temp);
+    console.log('videoArray', videoArray);
+    return videoArray;
+  }
+
+  function Gen() {
+    const videoArray = columnsVideo();
+    return videoArray.map((row, index) => {
+      return <Videos key={index} rowArray={row} />;
+    });
+  }
+
+  return <>{Gen()}</>;
 };
 
 export default videoContainer;

@@ -1,4 +1,41 @@
+$item-color: rgba(0, 0, 0, 0.05);
+$item-hover-color: rgba(0, 0, 0, 0.15);
+
 .frame {
   display: flex;
-  height: calc(100vh - 100px);
+  position: relative;
+  top: 70px;
+
+  .filterWrapper {
+    justify-content: left;
+    align-items: center;
+    display: flex;
+    padding: 0 15px;
+
+    .filterItem {
+      padding: 5px 10px;
+      margin: 6px;
+      border-radius: 10px;
+      background-color: $item-color;
+      &:hover {
+        cursor: pointer;
+        background-color: $item-hover-color;
+      }
+    }
+  }
+}
+.videoPage {
+  position: relative;
+  box-sizing: border-box;
+  width: 100%;
+
+  height: calc(100vh - 70px);
+  overflow-y: scroll;
+
+  display: flex;
+  flex-direction: column;
+
+  justify-content: flex-start;
+  align-items: center;
+  padding: 0 20px;
 }
