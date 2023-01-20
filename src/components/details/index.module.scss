@@ -1,14 +1,37 @@
+$breakpoint-tablet: 1066px;
+$breakpoint-desktop: 1067px;
+
 .detailWrap {
+  margin: 0 auto;
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
-  gap: 18px;
-  padding: 60px;
+  padding: 94px 0;
+  width: 1066px;
   .videoContent {
-    max-width: 1280px;
-    width: calc(100% - 420px);
     iframe {
       outline: none;
       border: none;
+    }
+  }
+}
+
+@media screen {
+}
+
+@mixin tablet {
+  @media (max-width: #{$breakpoint-tablet}) {
+    @content;
+  }
+}
+
+@include tablet {
+  .detailWrap {
+    flex-wrap: nowrap;
+    flex-direction: column;
+    width: 100%;
+    #comments {
+      max-width: 100%;
     }
   }
 }

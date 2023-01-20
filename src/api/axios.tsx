@@ -73,29 +73,10 @@ export const relatedToVideo = (videoId: string, data: object = {}) => {
  * @returns
  */
 export const commentThreads = (videoId: string, data: object = {}) => {
-  console.log(videoId);
-  console.log(data);
   const sending = {
     part: 'snippet',
-    videoId,
-    // maxResults: 10,
-  };
-  return instance.get(`/commentThreads`, { params: { ...sending, ...data } });
-};
-
-/**
- * 댓글창의 댓글
- * @param commentId
- * @param data
- * @returns
- */
-export const replyThreads = (commentId: string, data: object = {}) => {
-  console.log(commentId);
-  console.log(data);
-  const sending = {
-    part: 'replies',
-    commentId,
-    maxResults: 5,
+    videoId: videoId,
+    maxResults: 10,
   };
   return instance.get(`/commentThreads`, { params: { ...sending, ...data } });
 };
