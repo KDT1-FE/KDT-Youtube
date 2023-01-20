@@ -1,9 +1,10 @@
 import { useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
 import { videoInfo } from '../../api/axios';
-import Info from './Info';
+import Info from './VideoInfo';
 import RelatedVideos from './RelatedVideos';
 import style from './index.module.scss';
+import Comments from './Comments';
 
 interface videoIdPrams {
   videoId?: string;
@@ -27,7 +28,7 @@ const details = () => {
       }
     }
     videoData();
-  }, [videoId]);
+  }, [videoId, video]);
 
   return (
     <div className={style.detailWrap}>
@@ -44,6 +45,7 @@ const details = () => {
               return <Info item={item} key={idx} />;
             })
           : null}
+        <Comments />
       </div>
       <RelatedVideos videoId={videoId} />
     </div>

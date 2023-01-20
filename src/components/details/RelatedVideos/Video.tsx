@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import dayjs, { Dayjs } from 'dayjs';
-import useDay from '../../hooks/useDay';
+import useDay from '../../../hooks/useDay';
 import style from './Video.module.scss';
 
 type Props = {
@@ -13,7 +13,7 @@ const Video = ({ item }: Props) => {
 
   useEffect(() => {
     setDate(item.snippet.publishTime);
-  }, []);
+  }, [item]);
 
   return (
     <li>
@@ -24,7 +24,7 @@ const Video = ({ item }: Props) => {
         <h2>{item.snippet.title}</h2>
         <p>{item.snippet.channelTitle}</p>
         <p>
-          조회수 1.1만회 <span>{today}</span>
+          {item.snippet.channelTitle} <span>{today}</span>
         </p>
       </div>
     </li>
