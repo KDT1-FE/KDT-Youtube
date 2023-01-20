@@ -28,8 +28,8 @@ const RelatedVideos = ({ videoId }: Props) => {
         {Array.isArray(relatedVideos) ? (
           relatedVideos.map((item, idx) => {
             return (
-              <Link to={'/video/' + item.id.videoId}>
-                <Video item={item} key={idx} />
+              <Link to={'/video/' + item.id.videoId} key={idx}>
+                <Video item={item} />
               </Link>
             );
           })
