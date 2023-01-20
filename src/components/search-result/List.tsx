@@ -89,7 +89,7 @@ const List = ({ data }: Props) => {
         <div className={styles.content}>
           <div className={styles.title}>{truncate(data.snippet.title, 50)}</div>
           <div>
-            조회수{viewCount}회 {today}
+            조회수{viewCount} {today}
           </div>
           <div className={styles.channel}>{data.snippet.channelTitle}</div>
           <img src={channelData} alt="thumbnail image" className={styles.miniImg} />
