@@ -1,0 +1,17 @@
+.channel {
+  display: flex;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  align-items: center;
+  color: var(--color-light-gray);
+
+  .img {
+    width: 1.5rem;
+    height: 1.5rem;
+    border-radius: 50%;
+  }
+  .title {
+    font-size: 0.9rem;
+    margin-left: 0.5rem;
+  }
+}

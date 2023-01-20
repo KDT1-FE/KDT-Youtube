@@ -1,0 +1,110 @@
+{
+  "kind": "youtube#videoListResponse",
+  "etag": "fBNlXdfsf06VVzOrgsQ9kRg19n8",
+  "items": [
+    {
+      "kind": "youtube#video",
+      "etag": "ewgtxGtroUgiMM2t42GdvwKGbhU",
+      "id": "xnIvuyPRMug",
+      "snippet": {
+        "publishedAt": "2023-01-13T19:50:03Z",
+        "channelId": "UC4i3-yfVazfuqwoz71T79Sw",
+        "title": "Wild West: Biggest Swell in Decades Slams California",
+        "description": "Biggest is not always best. And in the case of last week’s Wild West swell — the biggest in decades to hit California — truth is, it was only actually good at a handful of spots during short windows of tide and wind, and/or at tucked-in nook-and-cranny novelty waves. (It also wreaked 17 different kinds of havoc across the state, washing over roadways, breaking piers and into harbors.) Yeah, it was a historic surf event which’ll be talked about in parking lots and lineups and coffee shops for years, and it rearranged the relationship with where we surf, but it (mostly) ended up being more spectacle than participatory. And above we present the spectacle, including a mad return to Todos Santos. With more on the way, especially Friday and Saturday across Southern California.\n\n-----------------------------------\r\nSubscribe: \r\nhttp://www.youtube.com/subscription_center?add_user=surfline\r\n\r\nBecome a Surfline Premium Member: \r\nhttps://surfl.in/2Cd36tF\r\n----------------------------------\n\nMusicBed - MB017G4BC0NM53Q",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/xnIvuyPRMug/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/xnIvuyPRMug/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/xnIvuyPRMug/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/xnIvuyPRMug/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/xnIvuyPRMug/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Surfline",
+        "tags": [
+          "surf",
+          "surfline",
+          "surfing",
+          "waves",
+          "ocean",
+          "surfboard",
+          "surfer",
+          "wsl",
+          "world surf league",
+          "wild west surfing",
+          "surf movie",
+          "storm surf",
+          "biggest swell",
+          "california big waves",
+          "big wave surfing",
+          "huge surf slams california",
+          "high surf advisory",
+          "todos santos",
+          "todos santos surfing",
+          "big wave surf movie",
+          "xxl surf",
+          "greg long",
+          "greg long surfer",
+          "greg long todos",
+          "sandspit",
+          "sandspit surf",
+          "surfing 2023",
+          "surfline todos santos",
+          "big waves southern california",
+          "socal big waves",
+          "seal beach",
+          "blacks beach",
+          "blacks"
+        ],
+        "categoryId": "17",
+        "liveBroadcastContent": "none",
+        "defaultLanguage": "en",
+        "localized": {
+          "title": "Wild West: Biggest Swell in Decades Slams California",
+          "description": "Biggest is not always best. And in the case of last week’s Wild West swell — the biggest in decades to hit California — truth is, it was only actually good at a handful of spots during short windows of tide and wind, and/or at tucked-in nook-and-cranny novelty waves. (It also wreaked 17 different kinds of havoc across the state, washing over roadways, breaking piers and into harbors.) Yeah, it was a historic surf event which’ll be talked about in parking lots and lineups and coffee shops for years, and it rearranged the relationship with where we surf, but it (mostly) ended up being more spectacle than participatory. And above we present the spectacle, including a mad return to Todos Santos. With more on the way, especially Friday and Saturday across Southern California.\n\n-----------------------------------\r\nSubscribe: \r\nhttp://www.youtube.com/subscription_center?add_user=surfline\r\n\r\nBecome a Surfline Premium Member: \r\nhttps://surfl.in/2Cd36tF\r\n----------------------------------\n\nMusicBed - MB017G4BC0NM53Q"
+        },
+        "defaultAudioLanguage": "en"
+      },
+      "contentDetails": {
+        "duration": "PT7M18S",
+        "dimension": "2d",
+        "definition": "hd",
+        "caption": "true",
+        "licensedContent": false,
+        "contentRating": {},
+        "projection": "rectangular"
+      },
+      "statistics": {
+        "viewCount": "431568",
+        "likeCount": "3935",
+        "favoriteCount": "0",
+        "commentCount": "217"
+      },
+      "player": {
+        "embedHtml": "\u003ciframe width=\"480\" height=\"270\" src=\"//www.youtube.com/embed/xnIvuyPRMug\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen\u003e\u003c/iframe\u003e"
+      }
+    }
+  ],
+  "pageInfo": {
+    "totalResults": 1,
+    "resultsPerPage": 1
+  }
+}

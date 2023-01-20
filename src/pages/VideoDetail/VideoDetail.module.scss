@@ -1,0 +1,11 @@
+.detailPage {
+  display: flex;
+  background-color: var(--color-black);
+  .column1 {
+    width: 80%;
+  }
+  .column2 {
+    // margin-left: 20px;
+    width: 20%;
+  }
+}

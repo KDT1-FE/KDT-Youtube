@@ -1,0 +1,14 @@
+* {
+  background: var(--color-dark-gray);
+}
+.detailContainer {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  .column1 {
+    width: 50%;
+  }
+  .column2 {
+    width: 50%;
+  }
+}

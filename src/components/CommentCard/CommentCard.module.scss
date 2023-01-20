@@ -1,0 +1,54 @@
+.CommentBoxContainer {
+  display: flex;
+
+  .CommentAvatarContainer {
+    display: flex;
+    img {
+      width: 40px;
+      height: 40px;
+      margin-right: 2rem;
+      border-radius: 50%;
+    }
+  }
+  .CommentTextContainer {
+    width: 100%;
+    overflow: hidden;
+    font-size: 13.5px;
+    .CommentAuthorName {
+      display: flex;
+      flex-direction: row;
+      font-weight: 700;
+      padding: 0 10px 10px 0;
+      span {
+        padding: 0 0.8rem;
+        font-weight: 400;
+        color: #aaa;
+        font-size: 95%;
+      }
+      .CommentText {
+        margin-top: 10px;
+        padding: 1rem 0;
+        font-size: 105%;
+      }
+    }
+  }
+}
+
+.comment_buttons {
+  margin-left: 70px;
+  width: 100%;
+  padding-top: 0.5rem;
+  display: flex;
+  div {
+    margin-right: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .muted {
+    margin-left: 5px;
+    font-size: 13px;
+    color: #aaa;
+    font-weight: 700;
+  }
+}

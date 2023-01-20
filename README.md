@@ -1,77 +1,171 @@
-유튜브 앱 작성
+<p align="center"> 
+  <img src="src\components\Sidebar\assets\youtube.png" width="20%" height="20%">
+</p>
 
-유튜브앱 설명자료:
-https://docs.google.com/document/d/1vHlO8lgIo1oXBYiecpE8TbG2tHnr3Hmv25UxK_7a5_g/edit#
+<h1 align="center"> Front-End : React Youtube Clone </h1>
+<h3 align="center">  <a href="https://www.youtube.com/">🔗 YouTube 페이지</a> </h3>
+<h3 align="center"><a href="# ">🔗 Team5 배포 페이지 </a> </h3>
+<h3 align="center">  <a href="https://www.youtube.com/">🔗 Team5 Git Repository</a> </h3>
+<h3 align="center">  <a href="https://lace-marigold-6ad.notion.site/5-7985818b00654994beae56511e650d7b">🔗 Team5 Notion</a> </h3>
 
-목표: 유튜브 앱을 만든다.
+<br/>
 
-수행 기간: 오늘 ~ 2023.01.20(금) 까지
-리뷰 기간:
-제출 방법:
-main 혹은 다른 사람의 브랜치로 절대 병합하지 않도록 주의하세요!
-혹시 문제가 발생한 경우, 바로 강사에게 알려주세요!
-현재 깃헙 저장소를 클론!
-확인 가능하도록 본명으로 브랜치 생성! 
-과제 수행 후 원격 저장소로 푸시! 
-현재 깃헙 저장소에서 main 브랜치로 Pull Request 생성하면 제출 완료!
-Pull Request 설명을 꼼꼼하게 작성!
+## 🦖 팀 소개<br/>
 
-요구사항
-다음 요구사항은 필수로 구현하고 그 외 기능은 마음대로 추가할 수 있다.
-유튜브 api를 사용해서 유튜브 데이터를 가져옵니다. 
+![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/grass.png)
 
-- 유튜브 Api 사용 방법 (API KEY 생성하는 법)
-https://console.cloud.google.com/     Google cloud console로 이동하기
-Youtube Data API 활성화 시키기
-API KEY 생성하기
+| <img src="https://user-images.githubusercontent.com/90189513/213643505-20b220f0-4b44-4cd7-81de-ad41e62a252b.png" width="100px" height="100px;" alt="김지영"> | <img src="https://user-images.githubusercontent.com/90189513/213642407-b57ea03c-6158-449d-b511-b6deeaa03019.png" width="100px" height="100px;" alt="이은영"> | <img src="https://user-images.githubusercontent.com/90189513/213642351-e0cbb3a1-2072-470e-8278-ea54bca73e1b.png" width="100px" height="100px;" alt="조승후"> | <img src="https://user-images.githubusercontent.com/90189513/213644979-b6364481-4cba-4376-8872-ff943c109946.jpeg"  width="100px" height="100px;" alt="홍혜원"> |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 김지영                                                                                                                                                       | 이은영                                                                                                                                                       | 조승후                                                                                                                                                       | 홍혜원                                                                                                                                                         |
+| 메인페이지                                                                                                                                                   | 헤더 및 사이드바                                                                                                                                             | 영상 상세 페이지                                                                                                                                             | 검색 페이지                                                                                                                                                    |
 
- - 유튜브 API 요청 방법
+<br/>
 
-baseURL : https://youtube.googleapis.com/youtube/v3
+## 🦖 프로젝트 기간
 
-검색어로 인한 비디오 데이터: 
-/search?part=snippet&maxResults=10&q={검색어}
+![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/grass.png)
 
-특정 비디오 데이터 : 
-/videos?part=snippet&part=contentDetails&part=player&part=statistics&id={videoId}
+2023.01.23(월) ~ 2023.01.20(금)
 
-특정 채널 정보 데이터: 
-/channels?part=snippet&part=statistics&part=contentDetails&id={channelId}
+<br/>
 
-댓글 데이터: 
-/commentThreads?part=snippet&videoId={videoId}
+## 🦖 기술 스택
 
-관련 비디오 데이터: 
-/search?part=snippet&maxResults=10&relatedToVideoId=${videoId}&type=video
+![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/grass.png)
 
+<div>
+  <div>
 
- - 요청 주의 사항 
- 
-a. 하루에 하나의 api_key에 할당된 요청 수가 있습니다. 
-그 이상 넘어가면 더 이상 요청을 못하게 되기 때문에 데이터를 가져오면 localStorage에 넣어서 localStorage에 이미 데이터가 있으면 요청을 보내지 말고 그 데이터를 이용해서 앱을 개발해 줍니다. 
+<!-- HTML5 -->
 
-b. <React.StrictMode>를 없애도 개발을 해주세요. (요청이 두 번씩 가서 더 많은 api 호출을 하게 됩니다.)
+<img alt="Html" src ="https://img.shields.io/badge/HTML-E34F26.svg?&style=for-the-badge&logo=HTML5&logoColor=white"/> <!-- CSS --> <img alt="CSS3" src ="https://img.shields.io/badge/CSS3-FF9933.svg?&style=for-the-badge&logo=CSS3&logoColor=white"/> <!-- JS --> <img alt="JavaScript" src ="https://img.shields.io/badge/JavaScript-F7DF1E.svg?&style=for-the-badge&logo=JavaScript&logoColor=white"/> <!-- React --> <img alt="React" src="https://img.shields.io/badge/react-61DAFB?style=for-the-badge&logo=react&logoColor=black"><br/> <!-- Post CSS --> <img alt="Post CSS" src="https://img.shields.io/badge/Post CSS-DD3A0A?style=for-the-badge&logo=PostCSS&logoColor=white"> <!-- SCSS --> <img alt="SASS" src="https://img.shields.io/badge/SASS-CC6699?style=for-the-badge&logo=SASS&logoColor=white"> <!-- .env --> <img alt=".env" src="https://img.shields.io/badge/.ENV-ECD53F?style=for-the-badge&logo=.ENV&logoColor=white"> <!-- axios --> <img alt="Html" src ="https://img.shields.io/badge/axios-000.svg?&style=for-the-badge&logo=axios&logoColor=white"/> <!-- Netlify --> <img alt="Netlify" src="https://img.shields.io/badge/NETLIFY-00C7B7?style=for-the-badge&logo=NETLIFY&logoColor=white"><br/> <!-- Github --> <img alt="Github" src="https://img.shields.io/badge/Github-181717?style=for-the-badge&logo=Github&logoColor=white"> <!-- Prettier --> <img alt="Prettier" src="https://img.shields.io/badge/Prettier-F7B93E?style=for-the-badge&logo=Prettier&logoColor=black">
 
+<br/>
 
-UI 구현 예시
-예시를 참고로 자유롭게 구현한다.
+<br/>
 
-- 메인 화면
-youtube api 를 이용해서 원하는 검색어에 맞는 비디오 데이터를 가져옵니다. 
-가져온 데이터를 이용해서 아래와 같은 UI를 보여줍니다.
-Navigation bar (위쪽 부분) side bar (왼쪽 부분)의 UI를 조건에 따라 처리해줍니다.
+<br/>
 
-- 비디오 화면
-youtube api 를 이용해서 특정 비디오, 댓글, 관련 비디오 데이터를 가져옵니다. 
-가져온 데이터를 이용해서 아래와 같은 UI를 보여줍니다.
+## 🦖 작업 상세 내용
 
-- 검색 화면
-youtube api 를 이용해서 원하는 검색어에 맞는 비디오 데이터를 가져옵니다. 
-가져온 데이터를 이용해서 아래와 같은 UI를 보여줍니다.
+![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/grass.png)
 
-주의 사항
-컴포넌트를 올바르게 나누기 
-반응형 스타일도 신경 쓰되 스타일보다는 기능 위주로 개발하기
-최대한 이해하기 쉬운 변수명, 파일명, 컴포넌트명 사용하기 
-어떠한 부분(데이터)을 위해서 State 관리 라이브러리를 사용해야 할지 생각해 보기
-React-router-dom api의 중첩 라우팅을 이용해서 레이아웃을 만들어주기
+### 👩‍💻김지영
+
+<details>
+<summary>[메인페이지]</summary>
+
+- 비디오카드 생성
+  - 비디오카드 호버링 시 3초 후 비디오 재생
+- 무한 스크롤 가능
+  </details>
+
+<details>
+<summary>[페이지명]</summary>
+
+- 설명1
+
+  - 설명2
+  </details>
+
+  ### 👩‍💻이은영
+
+<details>
+<summary>[헤더 및 사이드바]</summary>
+
+- 검색바 반응형
+- 사이드바 윈도우 창 크기별 반응형
+- 사이드바 태블릿 및 모바일에서는 모달 사이드바
+- 구현 못한 것
+
+  - 모바일일 때, 검색 버튼 누르면 확장된 검색바 나오기
+  - 모달창 버튼 닫기 안됨
+
+  </details>
+
+  ### 👩‍💻조승후
+
+<details>
+<summary>[영상플레이어]</summary>
+
+- 설명1
+
+  - 설명2
+  </details>
+
+<details>
+<summary>[댓글리스트]</summary>
+
+- 설명1
+
+  - 설명2
+  </details>
+
+<summary>[관련영상리스트]</summary>
+
+- 설명1
+
+  - 설명2
+  </details>
+
+  ### 👩‍💻홍혜원
+
+<details>
+<summary>검색페이지</summary>
+
+- 해당 키워드에 관한 영상 나오기
+  - header 컴포넌트 input에서 value값 받아오기
+  - 채널 이미지 불러오기
+  - 동영상 조회수 불러오기
+  - 레이아웃
+  </details>
+
+<details>
+<summary>상세페이지</summary>
+
+- 댓글창 부분 컴포넌트화
+  </details>
+
+<br/>
+
+## 🦖 피드백 받고 싶은 부분/아쉽거나 어려웠던 부분
+
+![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/grass.png)
+
+<details>
+<summary>👩‍💻김지영</summary>
+
+- 동영상 시간이 무조건 2숫자씩 되게 했습니다. 하지만, 10분 이하인 동영상인 경우, 분이 2글자일 필요가 없는데 더 좋은 방법이 있을지 궁급합니다.
+- 조회수 함수를 더 좋게 만들 방법이 있을 지 궁금합니다.
+- 시간 관계 상 필터와 미니 플레이어를 넣지 못해서 아쉽습니다.
+- 무한 스크롤를 위해 axios를 불러와 데이터를 usestate에 넣었는데, 더 좋은 방법이 있을지 고민이 됩니다.
+
+</details>
+<details>
+<summary>👩‍💻이은영</summary>
+
+- 피드백 받고 싶은 점
+
+  - 페이지 공통 레이아웃
+    - 헤더와 사이드바를 fixed로 설정했고 outlet은 헤더와 사이드바만큼 반응형마다 다르게 margin을 줬습니다. 괜찮은 방법인지 궁금합니다. 혹은 fixed된 공통 컴포넌트와 아웃렛을 margin을 주지 않고도 겹치지 않게 설정할 수 있는 방법이 있는지 궁금합니다.
+  - img src 대신 import로 이미지 불러오기
+    - 이미지를 img src로 불러오는 것이 안돼서 import 하였습니다. 혹시 원인에 대해 아시는 것이 있으면 알려주시면 감사하겠습니다.
+  - 사이드바
+    - 창크기별로 반응형을 만들고, 창크기별로 버튼에 다른 모션을 주는 것이 어려웠습니다. 버튼을 누르면 확장형 사이드바가 없어지거나 모달 사이드바가 뜨는 것에 대해, state를 하나로 하여 작업하다가 두 개로 변경하여 작업했습니다. 이 과정에서 헤더와 사이드바, app.js 전체 레이아웃 등 고려해야할 것이 많아 어려웠습니다. useContext를 사용해야 했는지 궁금합니다.
+
+- 어려웠던 점
+
+  - useRef - useRef 사용하는 것이 어려웠고, 수정하여 없어진 부분이나 자식 컴포넌트로 ref prop을 넘겨주는 것이 불가능 해 fowardRef 를 사용하려 했습니다. 하지만 에러가 났는데 해결하지 못해 사용하지 못했습니다.
+  </details>
+  <details>
+  <summary>👩‍💻조승후</summary>
+
+- 설명1
+- 설명2
+</details>
+<details>
+<summary>👩‍💻홍혜원</summary>
+
+- 설명1
+- 설명2
+</details>
