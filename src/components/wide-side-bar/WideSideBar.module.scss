@@ -28,6 +28,7 @@ $scroll-bar-color: rgba(0, 0, 0, 0.4);
   overflow-y: scroll;
   height: calc(100vh - 100px);
   box-sizing: border-box;
+  padding-right: 10px;
   &:hover {
     &::-webkit-scrollbar {
       display: block;
