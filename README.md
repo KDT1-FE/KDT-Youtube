@@ -1,77 +1,48 @@
-유튜브 앱 작성
+# YouTube Clone - 3조
 
-유튜브앱 설명자료:
-https://docs.google.com/document/d/1vHlO8lgIo1oXBYiecpE8TbG2tHnr3Hmv25UxK_7a5_g/edit#
+## [프로젝트 팀 레포](https://github.com/YouTube-clone-Team-3/ToyProject-YouTube-Clone)
+## [DEMO](https://toy-youtube-clone-t3.netlify.app)
 
-목표: 유튜브 앱을 만든다.
+## 팀원
+<table border>
+  <tbody>
+    <tr>
+      <td align="center" width="200px">
+        <img width="100%" src="https://avatars.githubusercontent.com/u/35508595?v=4"  alt=""/><br />
+        FE.<br/>
+        <a href="https://github.com/ghgt1">
+          <img src="https://img.shields.io/badge/노준영-000?style=flat-round&logo=GitHub&logoColor=white"/>
+        </a>
+      </td>
+            <td align="center" width="200px">
+        <img width="100%" src="https://avatars.githubusercontent.com/u/107393773?v=4"  alt=""/>
+        FE.<br/>
+        <a href="https://github.com/plou102">
+          <img src="https://img.shields.io/badge/박정민-000?style=flat-round&logo=GitHub&logoColor=white"/>
+        </a>
+      </td>
+      <td align="center" width="200px">
+        <img width="100%" src="https://avatars.githubusercontent.com/u/113992260?v=4"  alt=""/><br />
+        FE.<br/>
+       <a href="https://github.com/quokka-eating-carrots">
+          <img src="https://img.shields.io/badge/조민정-000?style=flat-round&logo=GitHub&logoColor=white"/>
+        </a>
+      </td>
+     </tr>
+  </tbody>
+</table>
 
-수행 기간: 오늘 ~ 2023.01.20(금) 까지
-리뷰 기간:
-제출 방법:
-main 혹은 다른 사람의 브랜치로 절대 병합하지 않도록 주의하세요!
-혹시 문제가 발생한 경우, 바로 강사에게 알려주세요!
-현재 깃헙 저장소를 클론!
-확인 가능하도록 본명으로 브랜치 생성! 
-과제 수행 후 원격 저장소로 푸시! 
-현재 깃헙 저장소에서 main 브랜치로 Pull Request 생성하면 제출 완료!
-Pull Request 설명을 꼼꼼하게 작성!
+## 기술 스택
 
-요구사항
-다음 요구사항은 필수로 구현하고 그 외 기능은 마음대로 추가할 수 있다.
-유튜브 api를 사용해서 유튜브 데이터를 가져옵니다. 
+<img src="https://img.shields.io/badge/.ENV-ECD53F?style=flat-round&logo=.ENV&logoColor=black"/>
+<img src="https://img.shields.io/badge/React-61DAFB?style=flat-round&logo=React&logoColor=black"/>
+<img src="https://img.shields.io/badge/React Router-CA4245?style=flat-round&logo=React Router&logoColor=white"/>
+<img src="https://img.shields.io/badge/Sass-CC6699?style=flat-round&logo=Sass&logoColor=white"/>
+<img src="https://img.shields.io/badge/CSS Modules-000?style=flat-round&logo=CSS Modules&logoColor=white"/>
+<img src="https://img.shields.io/badge/Axios-5A29E4?style=flat-round&logo=Axios&logoColor=white"/>
+<img src="https://img.shields.io/badge/Vite-646CFF?style=flat-round&logo=Vite&logoColor=white"/>
 
-- 유튜브 Api 사용 방법 (API KEY 생성하는 법)
-https://console.cloud.google.com/     Google cloud console로 이동하기
-Youtube Data API 활성화 시키기
-API KEY 생성하기
-
- - 유튜브 API 요청 방법
-
-baseURL : https://youtube.googleapis.com/youtube/v3
-
-검색어로 인한 비디오 데이터: 
-/search?part=snippet&maxResults=10&q={검색어}
-
-특정 비디오 데이터 : 
-/videos?part=snippet&part=contentDetails&part=player&part=statistics&id={videoId}
-
-특정 채널 정보 데이터: 
-/channels?part=snippet&part=statistics&part=contentDetails&id={channelId}
-
-댓글 데이터: 
-/commentThreads?part=snippet&videoId={videoId}
-
-관련 비디오 데이터: 
-/search?part=snippet&maxResults=10&relatedToVideoId=${videoId}&type=video
-
-
- - 요청 주의 사항 
- 
-a. 하루에 하나의 api_key에 할당된 요청 수가 있습니다. 
-그 이상 넘어가면 더 이상 요청을 못하게 되기 때문에 데이터를 가져오면 localStorage에 넣어서 localStorage에 이미 데이터가 있으면 요청을 보내지 말고 그 데이터를 이용해서 앱을 개발해 줍니다. 
-
-b. <React.StrictMode>를 없애도 개발을 해주세요. (요청이 두 번씩 가서 더 많은 api 호출을 하게 됩니다.)
-
-
-UI 구현 예시
-예시를 참고로 자유롭게 구현한다.
-
-- 메인 화면
-youtube api 를 이용해서 원하는 검색어에 맞는 비디오 데이터를 가져옵니다. 
-가져온 데이터를 이용해서 아래와 같은 UI를 보여줍니다.
-Navigation bar (위쪽 부분) side bar (왼쪽 부분)의 UI를 조건에 따라 처리해줍니다.
-
-- 비디오 화면
-youtube api 를 이용해서 특정 비디오, 댓글, 관련 비디오 데이터를 가져옵니다. 
-가져온 데이터를 이용해서 아래와 같은 UI를 보여줍니다.
-
-- 검색 화면
-youtube api 를 이용해서 원하는 검색어에 맞는 비디오 데이터를 가져옵니다. 
-가져온 데이터를 이용해서 아래와 같은 UI를 보여줍니다.
-
-주의 사항
-컴포넌트를 올바르게 나누기 
-반응형 스타일도 신경 쓰되 스타일보다는 기능 위주로 개발하기
-최대한 이해하기 쉬운 변수명, 파일명, 컴포넌트명 사용하기 
-어떠한 부분(데이터)을 위해서 State 관리 라이브러리를 사용해야 할지 생각해 보기
-React-router-dom api의 중첩 라우팅을 이용해서 레이아웃을 만들어주기
+## 이슈
++ NavBar가 반대로 열리게 되는 현상이 있습니다.
++ API 할당량으로 인한 이슈가 있을 수 있습니다. (특히 Search Page...)
++ 실수로 ENV를 레포에 올리게 되었습니다...
