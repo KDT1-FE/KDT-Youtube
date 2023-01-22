@@ -53,7 +53,12 @@ export default function PlayPage() {
     return () => {
       navDisplay(true)
     }
-  }, [])
+  }, [id])
+
+  useEffect(() => {
+    if (video.length !== 0)
+      document.title = `${video[0]?.snippet.title} - YouTube`;
+  }, [video]);
 
   const channelId = video[0]?.snippet?.channelId
 

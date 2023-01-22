@@ -22,7 +22,7 @@
         </a>
       </td>
       <td align="center" width="200px">
-        <img width="100%" src="https://avatars.githubusercontent.com/u/106734517?v=4"  alt=""/><br />
+        <img width="100%" src="https://avatars.githubusercontent.com/u/113992260?v=4"  alt=""/><br />
         FE.<br/>
        <a href="https://github.com/quokka-eating-carrots">
           <img src="https://img.shields.io/badge/조민정-000?style=flat-round&logo=GitHub&logoColor=white"/>
@@ -45,3 +45,4 @@
 ## 이슈
 + NavBar가 반대로 열리게 되는 현상이 있습니다.
 + API 할당량으로 인한 이슈가 있을 수 있습니다. (특히 Search Page...)
++ 실수로 ENV를 레포에 올리게 되었습니다...
