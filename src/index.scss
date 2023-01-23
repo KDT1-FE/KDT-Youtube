@@ -11,6 +11,23 @@ body {
   -moz-osx-font-smoothing: grayscale;
   background-color: $background-color;
   color: $main-text-color;
+
+  &::-webkit-scrollbar {
+    width: 9px;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background-color: $secondary-text-color;
+    border-radius: 10px;
+
+    &:hover {
+      background-color: #777;
+    }
+  }
+
+  &::-webkit-scrollbar-track {
+    margin: 5px 0;
+  }
 }
 
 code {

@@ -1,195 +1,78 @@
 {
     "kind": "youtube#videoListResponse",
-    "etag": "drbqYyE9LOLkU4H8z6To-DhFQ-I",
+    "etag": "nwpeHwAuJGlUxd6fVfJTF0F5hL0",
     "items": [
         {
             "kind": "youtube#video",
-            "etag": "P4HP8LLE6HoiFI_gGfX9KTZJ6m0",
-            "id": "cgdne04i99I",
+            "etag": "Qi9eusWlF_VhvZ_EzxU7NEhSsQM",
+            "id": "cKlEE_EYuNM",
             "snippet": {
-                "publishedAt": "2023-01-09T02:34:05Z",
-                "channelId": "UCF4Wxdo3inmxP-Y59wXDsFw",
-                "title": "[오늘 이 뉴스] \"태어나서 그런 불 처음 봤어요\" 부산 23층 건물 삼킨 '불기둥' (2023.01.09/MBC뉴스)",
-                "description": "#부산 #화재 #주차타워",
+                "publishedAt": "2023-01-20T05:00:06Z",
+                "channelId": "UCaO6TYtlC8U5ttz62hTrZgg",
+                "title": "TWICE Pre-release english track \"MOONLIGHT SUNRISE\" M/V",
+                "description": "TWICE Pre-release english track \"MOONLIGHT SUNRISE\" M/V\n\nRelease on 2023.01.20 FRI 2PM KST/0AM EST\n\n💗Listen \"MOONLIGHT SUNRISE\" HERE👇\nhttps://TWICE.lnk.to/MoonlightSunrise\n \nTWICE Official Shop: https://TWICE.lnk.to/Shop\nTWICE Official YouTube: http://www.youtube.com/c/TWICE\nTWICE Official Facebook: http://www.facebook.com/JYPETWICE\nTWICE Official Twitter: http://www.twitter.com/JYPETWICE\nTWICE Official TikTok: https://www.tiktok.com/@twice_tiktok_official\nTWICE Official Instagram: http://www.instagram.com/TWICETAGRAM\nTWICE Official Homepage: http://TWICE.jype.com\nTWICE Official Fan's: http://fans.jype.com/TWICE\n\nⓒ 2023 JYP Entertainment. All Rights Reserved\n\n#TWICE #MOONLIGHTSUNRISE",
                 "thumbnails": {
                     "default": {
-                        "url": "https://i.ytimg.com/vi/cgdne04i99I/default.jpg",
+                        "url": "https://i.ytimg.com/vi/cKlEE_EYuNM/default.jpg",
                         "width": 120,
                         "height": 90
                     },
                     "medium": {
-                        "url": "https://i.ytimg.com/vi/cgdne04i99I/mqdefault.jpg",
+                        "url": "https://i.ytimg.com/vi/cKlEE_EYuNM/mqdefault.jpg",
                         "width": 320,
                         "height": 180
                     },
                     "high": {
-                        "url": "https://i.ytimg.com/vi/cgdne04i99I/hqdefault.jpg",
+                        "url": "https://i.ytimg.com/vi/cKlEE_EYuNM/hqdefault.jpg",
                         "width": 480,
                         "height": 360
                     },
                     "standard": {
-                        "url": "https://i.ytimg.com/vi/cgdne04i99I/sddefault.jpg",
+                        "url": "https://i.ytimg.com/vi/cKlEE_EYuNM/sddefault.jpg",
                         "width": 640,
                         "height": 480
                     },
                     "maxres": {
-                        "url": "https://i.ytimg.com/vi/cgdne04i99I/maxresdefault.jpg",
+                        "url": "https://i.ytimg.com/vi/cKlEE_EYuNM/maxresdefault.jpg",
                         "width": 1280,
                         "height": 720
                     }
                 },
-                "channelTitle": "MBCNEWS",
+                "channelTitle": "JYP Entertainment",
                 "tags": [
-                    "MBC",
-                    "MBC뉴스",
-                    "뉴스데스크",
-                    "newsdesk",
-                    "뉴스투데이",
-                    "newstoday",
-                    "8시뉴스",
-                    "아침뉴스",
-                    "뉴스",
-                    "정오뉴스",
-                    "news",
-                    "genre:사회",
-                    "format:리포트",
-                    "type:디지털",
-                    "source:영상",
-                    "series:오늘 이 뉴스",
-                    "topic:부산 주차타워 화재",
-                    "location:서울mbc",
-                    "language:한국어",
-                    "custom:2차가공",
-                    "custom:일반"
-                ],
-                "categoryId": "25",
-                "liveBroadcastContent": "none",
-                "localized": {
-                    "title": "[오늘 이 뉴스] \"태어나서 그런 불 처음 봤어요\" 부산 23층 건물 삼킨 '불기둥' (2023.01.09/MBC뉴스)",
-                    "description": "#부산 #화재 #주차타워"
-                },
-                "defaultAudioLanguage": "ko"
-            },
-            "contentDetails": {
-                "duration": "PT1M51S",
-                "dimension": "2d",
-                "definition": "hd",
-                "caption": "false",
-                "licensedContent": true,
-                "contentRating": {},
-                "projection": "rectangular"
-            },
-            "statistics": {
-                "viewCount": "5234267",
-                "likeCount": "32612",
-                "favoriteCount": "0",
-                "commentCount": "7225"
-            }
-        },
-        {
-            "kind": "youtube#video",
-            "etag": "tvkdyUrZPAf3CU7YXwZOk_2DIl0",
-            "id": "2zXg8CbymYc",
-            "snippet": {
-                "publishedAt": "2023-01-09T09:00:00Z",
-                "channelId": "UCYDmx2Sfpnaxg488yBpZIGg",
-                "title": "MONSTA X 몬스타엑스 'Beautiful Liar' MV",
-                "description": "▶More information\nMONSTA X Official Fan cafe : http://cafe.daum.net/monsta-x\nMONSTA X Official Twitter : http://www.twitter.com/OfficialMonstaX\nMONSTA X Official Facebook : http://www.facebook.com/OfficialMonstaX\nMONSTA X Official Instagram : https://www.instagram.com/official_monsta_x\nMONSTA X Official Weibo : http://www.weibo.com/monstax\n\n#MONSTAX #몬스타엑스 #MONBEBE #REASON",
-                "thumbnails": {
-                    "default": {
-                        "url": "https://i.ytimg.com/vi/2zXg8CbymYc/default.jpg",
-                        "width": 120,
-                        "height": 90
-                    },
-                    "medium": {
-                        "url": "https://i.ytimg.com/vi/2zXg8CbymYc/mqdefault.jpg",
-                        "width": 320,
-                        "height": 180
-                    },
-                    "high": {
-                        "url": "https://i.ytimg.com/vi/2zXg8CbymYc/hqdefault.jpg",
-                        "width": 480,
-                        "height": 360
-                    },
-                    "standard": {
-                        "url": "https://i.ytimg.com/vi/2zXg8CbymYc/sddefault.jpg",
-                        "width": 640,
-                        "height": 480
-                    },
-                    "maxres": {
-                        "url": "https://i.ytimg.com/vi/2zXg8CbymYc/maxresdefault.jpg",
-                        "width": 1280,
-                        "height": 720
-                    }
-                },
-                "channelTitle": "starshipTV",
-                "tags": [
-                    "Kpop",
-                    "1theK",
-                    "Starshiptv",
-                    "starship",
-                    "loen",
-                    "로엔",
-                    "뮤비",
-                    "티져",
-                    "MV",
-                    "Teaser",
-                    "Dance practice",
-                    "신곡",
-                    "new",
-                    "song",
-                    "한류",
-                    "idol",
-                    "hallyu",
-                    "ロエン",
-                    "ミュージック",
-                    "ミュージックビデオ",
-                    "アイドル",
-                    "韓流",
-                    "韓国",
-                    "아이돌",
-                    "reality",
-                    "몬채널",
-                    "MONCHANNEL",
-                    "MON-CHANNEL",
-                    "making film",
-                    "behind",
-                    "MONSTA X",
-                    "MONSTA-X",
-                    "몬스타엑스",
-                    "몬엑",
-                    "MX",
-                    "DRAMARAMA",
-                    "THE CODE",
-                    "셔누",
-                    "형원",
-                    "기현",
-                    "민혁",
-                    "주헌",
-                    "아이엠",
-                    "SHOWNU",
-                    "HYUNGWON",
-                    "KIHYUN",
-                    "MINHYUK",
-                    "JOOHEON",
-                    "JOOHONEY",
-                    "IM",
-                    "REASON",
-                    "Behind",
-                    "Concept Photo",
-                    "teaser",
-                    "티저",
-                    "Beautiful Liar",
-                    "뷰티풀라이어",
-                    "뷰라",
-                    "뮤직비디오"
+                    "JYP Entertainment",
+                    "JYP",
+                    "TWICE",
+                    "트와이스",
+                    "MOONLIGHT SUNRISE",
+                    "문라이트 썬라이즈",
+                    "TWICE MOONLIGHT SUNRISE",
+                    "트와이스 문라이트 썬라이즈",
+                    "TWICE Pre-Release English Single",
+                    "트와이스 영어 선공개곡",
+                    "TWICE English Single",
+                    "트와이스 영어곡",
+                    "TWICE 컴백",
+                    "TWICE 신곡",
+                    "트와이스 컴백",
+                    "트와이스 신곡",
+                    "moonlightsunrise mv",
+                    "moonlightsunrise music video",
+                    "mlsr mv",
+                    "mlsr music video",
+                    "문라선라뮤비",
+                    "문라선라 뮤직비디오",
+                    "트와이스문라선라 뮤비",
+                    "twice mlsr mv",
+                    "twice mv",
+                    "mlsr twice"
                 ],
                 "categoryId": "10",
                 "liveBroadcastContent": "none",
-                "defaultLanguage": "ko",
+                "defaultLanguage": "en",
                 "localized": {
-                    "title": "MONSTA X 몬스타엑스 'Beautiful Liar' MV",
-                    "description": "▶More information\nMONSTA X Official Fan cafe : http://cafe.daum.net/monsta-x\nMONSTA X Official Twitter : http://www.twitter.com/OfficialMonstaX\nMONSTA X Official Facebook : http://www.facebook.com/OfficialMonstaX\nMONSTA X Official Instagram : https://www.instagram.com/official_monsta_x\nMONSTA X Official Weibo : http://www.weibo.com/monstax\n\n#MONSTAX #몬스타엑스 #MONBEBE #REASON"
+                    "title": "TWICE Pre-release english track \"MOONLIGHT SUNRISE\" M/V",
+                    "description": "TWICE Pre-release english track \"MOONLIGHT SUNRISE\" M/V\n\nRelease on 2023.01.20 FRI 2PM KST/0AM EST\n\n💗Listen \"MOONLIGHT SUNRISE\" HERE👇\nhttps://TWICE.lnk.to/MoonlightSunrise\n \nTWICE Official Shop: https://TWICE.lnk.to/Shop\nTWICE Official YouTube: http://www.youtube.com/c/TWICE\nTWICE Official Facebook: http://www.facebook.com/JYPETWICE\nTWICE Official Twitter: http://www.twitter.com/JYPETWICE\nTWICE Official TikTok: https://www.tiktok.com/@twice_tiktok_official\nTWICE Official Instagram: http://www.instagram.com/TWICETAGRAM\nTWICE Official Homepage: http://TWICE.jype.com\nTWICE Official Fan's: http://fans.jype.com/TWICE\n\nⓒ 2023 JYP Entertainment. All Rights Reserved\n\n#TWICE #MOONLIGHTSUNRISE"
                 },
                 "defaultAudioLanguage": "ko"
             },
@@ -203,281 +86,309 @@
                 "projection": "rectangular"
             },
             "statistics": {
-                "viewCount": "7821857",
-                "likeCount": "175150",
+                "viewCount": "21230953",
+                "likeCount": "1309183",
                 "favoriteCount": "0",
-                "commentCount": "18934"
+                "commentCount": "187565"
             }
         },
         {
             "kind": "youtube#video",
-            "etag": "BK5BlCq432qkDSZ5Dqsn1Jk_50o",
-            "id": "4LkHkcpx_XU",
+            "etag": "5BklVjlvDMSCjvAlMHRlXjzu2Ys",
+            "id": "ImntsoxN9_4",
             "snippet": {
-                "publishedAt": "2023-01-09T09:30:02Z",
-                "channelId": "UCaKod3X1Tn4c7Ci0iUKcvzQ",
-                "title": "런떴2",
-                "description": "런닝맨이 떴다2 .zip 《런닝맨 / 예능맛ZIP / RunningMan 》\n\nE. 636\n#예능맛ZIP​ #런닝맨​ #Runningman",
+                "publishedAt": "2023-01-19T19:24:30Z",
+                "channelId": "UC0YatYmg5JRYzXJPxIdRd8g",
+                "title": "PSG vs Riyadh All-Star XI | RIYADH SEASON CUP 2023 HIGHLIGHTS | 1/19/2023 | beIN SPORTS USA",
+                "description": "The two GOATS scored for their respective teams, Messi opened the scoring and Cristiano responded with 2 goals. The victory was for PSG with a score of 5-4.\n\n#messi #cristianoronaldo #psg \n\nCatch the latest highlights of Ligue 1🇫🇷, Turkish Süper Lig🇹🇷, \nCopa Libertadores🏆, Copa Sudamericana🥇 on our YouTube channel.\nFollow the latest news on beIN SPORTS.com and stream all our matches on our beIN SPORTS CONNECT app or on our beIN XTRA channels.\nDownload beIN SPORTS CONNECT on Apple devices: https://tinyurl.com/y4bd3osh\nDownload beIN SPORTS CONNECT on Android devices: https://tinyurl.com/yxlst4vj",
                 "thumbnails": {
                     "default": {
-                        "url": "https://i.ytimg.com/vi/4LkHkcpx_XU/default.jpg",
+                        "url": "https://i.ytimg.com/vi/ImntsoxN9_4/default.jpg",
                         "width": 120,
                         "height": 90
                     },
                     "medium": {
-                        "url": "https://i.ytimg.com/vi/4LkHkcpx_XU/mqdefault.jpg",
+                        "url": "https://i.ytimg.com/vi/ImntsoxN9_4/mqdefault.jpg",
                         "width": 320,
                         "height": 180
                     },
                     "high": {
-                        "url": "https://i.ytimg.com/vi/4LkHkcpx_XU/hqdefault.jpg",
+                        "url": "https://i.ytimg.com/vi/ImntsoxN9_4/hqdefault.jpg",
                         "width": 480,
                         "height": 360
                     },
                     "standard": {
-                        "url": "https://i.ytimg.com/vi/4LkHkcpx_XU/sddefault.jpg",
+                        "url": "https://i.ytimg.com/vi/ImntsoxN9_4/sddefault.jpg",
                         "width": 640,
                         "height": 480
-                    },
-                    "maxres": {
-                        "url": "https://i.ytimg.com/vi/4LkHkcpx_XU/maxresdefault.jpg",
-                        "width": 1280,
-                        "height": 720
                     }
                 },
-                "channelTitle": "런닝맨 - 스브스 공식 채널",
-                "tags": [
-                    "#Runningman",
-                    "#런닝맨",
-                    "#보필PD",
-                    "#예능맛ZIP",
-                    "Gary",
-                    "Haha",
-                    "Jeon So Min",
-                    "Ji Seok Jin",
-                    "Kim Jong Kook",
-                    "Lee Kwang Soo",
-                    "RunninMan",
-                    "Runningman",
-                    "SBS",
-                    "Song Ji Hyo",
-                    "Yang Se Chan",
-                    "Yoo Jae Suk",
-                    "runningman",
-                    "sbs",
-                    "김종국",
-                    "레전드",
-                    "본방송",
-                    "비하인드",
-                    "송지효",
-                    "애드리브",
-                    "양세찬",
-                    "예능맛ZIP",
-                    "예능맛집",
-                    "웃음참기",
-                    "유장꾸",
-                    "유재석",
-                    "이광수",
-                    "전소민",
-                    "지석진",
-                    "최신화",
-                    "런닝맨",
-                    "형인PD",
-                    "런닝맨635회",
-                    "런닝맨이떴다2"
-                ],
-                "categoryId": "24",
+                "channelTitle": "beIN SPORTS USA",
+                "categoryId": "17",
                 "liveBroadcastContent": "none",
-                "defaultLanguage": "ko",
                 "localized": {
-                    "title": "런떴2",
-                    "description": "런닝맨이 떴다2 .zip 《런닝맨 / 예능맛ZIP / RunningMan 》\n\nE. 636\n#예능맛ZIP​ #런닝맨​ #Runningman"
-                },
-                "defaultAudioLanguage": "ko"
+                    "title": "PSG vs Riyadh All-Star XI | RIYADH SEASON CUP 2023 HIGHLIGHTS | 1/19/2023 | beIN SPORTS USA",
+                    "description": "The two GOATS scored for their respective teams, Messi opened the scoring and Cristiano responded with 2 goals. The victory was for PSG with a score of 5-4.\n\n#messi #cristianoronaldo #psg \n\nCatch the latest highlights of Ligue 1🇫🇷, Turkish Süper Lig🇹🇷, \nCopa Libertadores🏆, Copa Sudamericana🥇 on our YouTube channel.\nFollow the latest news on beIN SPORTS.com and stream all our matches on our beIN SPORTS CONNECT app or on our beIN XTRA channels.\nDownload beIN SPORTS CONNECT on Apple devices: https://tinyurl.com/y4bd3osh\nDownload beIN SPORTS CONNECT on Android devices: https://tinyurl.com/yxlst4vj"
+                }
             },
             "contentDetails": {
-                "duration": "PT44M34S",
+                "duration": "PT16M28S",
                 "dimension": "2d",
                 "definition": "hd",
                 "caption": "false",
                 "licensedContent": true,
                 "regionRestriction": {
-                    "blocked": [
-                        "AU",
-                        "ID",
-                        "MY",
-                        "NZ",
-                        "PH",
-                        "SG",
-                        "TH",
-                        "VN"
+                    "allowed": [
+                        "CA",
+                        "PR",
+                        "US"
                     ]
                 },
                 "contentRating": {},
                 "projection": "rectangular"
             },
             "statistics": {
-                "viewCount": "637231",
-                "likeCount": "11598",
+                "viewCount": "1798862",
+                "likeCount": "22649",
                 "favoriteCount": "0",
-                "commentCount": "1025"
+                "commentCount": "2536"
             }
         },
         {
             "kind": "youtube#video",
-            "etag": "EVdP9n_0Q86I_swuPn0sanW9W_Y",
-            "id": "g8C7gj8n4Jw",
+            "etag": "8d0IsQyOPVDNY7Sy2UmEp1ghY74",
+            "id": "vjDOpHuUppU",
             "snippet": {
-                "publishedAt": "2023-01-06T23:46:10Z",
-                "channelId": "UCy-6oZwPwrR_W-zYnqLD8dg",
-                "title": "[full] 침체의 서막 1부 - 모두가 가난해진다 | 시사직격 신년특집 KBS 230106 방송",
-                "description": "방송일시 : 2023년 1월 6일 금요일 밤 10시\n유난히 추웠던 2022년 겨울. 여의도 증권가에서는 벌써 수천 명을 대상으로 구조조정 칼바람 소식이 불어닥친다. 전문가들은 앞다퉈 곧 지금보다 더욱 견디기 힘든 경기 침체가 시작될 것이라며 암울한 전망을 내놓는다. \n기대보다는 두려움이 더 큰 2023년. 정말 우리는 모두 가난해질까.\n\n■ 자장면의 배신, 서민의 몰락\n서민물가의 지표였던 자장면값마저 평균 6,000원을 넘어섰다. 지난해 소비자 물가 상승 지수는 5.1%로, IMF 외환위기 이후 24년 만에 최고 수준을 기록했다. \n팬데믹의 여파와 러시아-우크라이나 전쟁으로 촉발된 고물가 시대는 서민들에게 더 가혹하다. 소비자의 지갑이 얇아지자 일부 농수산물은 오히려 가격이 폭락해, 농어민들이 생산을 포기해버리는 역설이 벌어지기도 한다. 치솟는 물가에 자영업의 마지막 보루였던 노점상마저 찾아보기 어려워졌다. \n인플레이션으로부터 무너져가는 사회 곳곳의 약한 고리들. 2023년에도 지속될 것으로 보이는 고물가 시대의 여파는 어느 정도인가.\n\n“어쩔 수 없이 가격을 천 원씩 올렸어요.  안 올리고 싶었는데 밀가루값이 너무 많이 오르니까. 재료비가 얼마인지 이런 걸 안 봐요. 아예 보고 싶지도 않은 거예요.”\n최미경 / 중식당 운영 -\n\n“기름값도 비싸죠. 인건비는 인건비대로 올라가죠. 고기 시세가 같이 따라서 올라가 주면 괜찮은데 자꾸 떨어지다 보니까 옛날만큼 잡아서는 지탱하기가 힘들어요. 붙잡고 있다가는 망하게 생겼어요.”\n안장남 / 어민 - \n\n■ 더 많이 뛰어야 살아남는다\n‘新 경제중심지’로 불리는 평택 고덕신도시 반도체 공장. 이곳에는 6만 명이 넘는 일용직 건설 근로자들이 동이 트기도 전 하루를 시작한다. 자영업자, 공무원 등 각계각층의 이들이 이곳으로 몰려든 이유는 근로 시간의 제약이 적고 더 많이 일할 수 있다는 이점 때문이다.\n전라남도 해남에서 자영업을 하던 임상진 씨(45세)도 그중 한 명이다. 매일 새벽 4시에 출근해 저녁 8시까지 총 16시간을 일하며 한 달 내리 만근을 찍었다. 근무표가 빼곡하게 채워지는 만큼 어린 두 아이와 함께할 시간은 줄어들지만, 이 또한 지나가리라는 믿음으로 새벽 출근길에 오른다.\n\n본업만으로는 생계유지가 어려워진 A씨. 그는 이른바 ‘오픈런’이라 알려진 명품구매 대행 줄서기 아르바이트로 부수입을 올린다. 최근에는 자투리 시간을 이용해 부업을 하려는 사람들이 모여들며 구인시장도 호황을 맞았다. 자정부터 아침까지, 백화점 앞에서 추위에 떨며 밤을 꼬박 지샌 A씨가 수중에 얻은 돈은 10여만 원. 손등이 부르터도 할 수 있는 일이 있어 감사하다고 말한다.\n\n전국경제인연합회의 조사에 따르면 본업 외 부업을 뛰는 가장의 수가 5년 만에 41%나 상승하며 역대 최대치를 기록했다. 치솟는 물가에 실질임금이 7개월 연속 하락하면서 이전과 같은 벌이로 생계유지도 어려워진 이들은 더 오래, 더 많이 일하기 위해 또 다른 직업을 찾아 나선다. ‘N잡러’는 더 이상 새로운 문화가 아닌 불가피한 현실, 생존의 문제이다. \n\n“몸은 조금 힘들어도 여기에 온 보람은 있죠. 일 한 시간만큼 급여가 많이 나오니까. 지금은 악착같이 살면서 가능한 몸을 갈아 넣고 있습니다.”\n- 임상진 / 건설 일용직 근로자 -\n\n\"하도 빠져나가는 돈이 많아서... 공과금에, 생활비에, 관리비까지 진짜 죽겠어요. 물가는 오르고 임금은 안 오르고.\"\n- 오픈런 아르바이트 종사자 A씨 -\n\n■ ‘진짜 위기’는 아직 오지 않았다\n팬데믹 이후 매출이 25%가량 급감하며 한계기업으로 분류된 경기도의 한 엔진 제조업체. 24명이었던 직원을 15명으로 감축하고 정책지원자금으로 대출을 받아 버텨왔으나 금리가 오르며 대출금 상환 만기까지 다가와 한 치 앞을 장담하기 어려운 상황에 놓였다. \n27년 업력, 32억 매출을 자랑하던 김해의 한 중공업체는 작년 9월, 회사 담보대출을 갚지 못하고 결국 파산을 선고했다. 갑작스럽게 해고 통보를 받은 직원 모두 이곳에서 10여 년이 훌쩍 넘게 근무한 사람들이었다. 대부분 50대 후반부터 60대. 새로운 일자리를 찾아 나서기도 쉽지 않은 한 가장의 아버지들은 밀린 임금과 퇴직금도 정산받지 못한 채 거리로 내몰렸다.\n경기 침체에 대한 불안감이 커지는 가운데, 일부 경제 전문가들은 아직도 ‘진짜 위기’는 시작되지 않았다고 말한다. 금융투자협회에 따르면 내년 상반기 만기가 도래하는 회사채 규모만 53조를 넘는다. 지난 2년여의 팬데믹 시절을 저금리대출로 연명해오던 ‘한계기업’들이 줄도산을 맞는 순간, 본격적인 체감 위기를 가져올 고용 한파가 시작된다는 것이다. \n\n”기업들의 영업이익 감소와 고금리로 상승한 이자 비용에 대한 반응이 일어나고 있기 때문에, 2023년에는 한계기업 비중이 상당폭 상승할 것으로 보입니다.“\n서경란 / ‘ㄱ’은행 경제연구소 중소기업팀장 - \n\n탐사 보도의 노하우와 정통 다큐멘터리의 기획력을 더했다! 《시사직격》\n일본 강제동원 손해배상사건과 제주 4.3 군사재판 희생자들의 재심사건 담당.\n거대한 국가 폭력에 항거하는 피해자의 곁을 묵묵히 지켰던 임재성 변호사와 함께합니다.\n\n매주 금요일 밤 10시, KBS 1TV 방송\n✔ 제보 : 010-4828-0203 / 시사직격 홈페이지 / betterkbs@gmail.com\n▶홈페이지 : http://program.kbs.co.kr/1tv/culture/direct/pc/index.html\n▶트위터 : https://twitter.com/KBSsisajg\n▶페이스북 : https://www.facebook.com/kbssisajg1\n▶인스타그램 : www.instagram.com/kbssisajg\n▶저작권·이의제기 등 유튜브 영상문의 : ssjkkbs@gmail.com",
+                "publishedAt": "2023-01-20T16:59:59Z",
+                "channelId": "UCQJWtTnAHhEG5w4uN0udnUQ",
+                "title": "Invincible - Season 2 Teaser | Prime Video",
+                "description": "Welcome to Burger Mart! Enjoy a hot meal along with an update on Season 2 of INVINCIBLE. Featuring Steven Yeun as the voice of Invincible and Seth Rogen as the voice of Allen The Alien.\n\n» SUBSCRIBE: http://bit.ly/PrimeVideoSubscribe \n\nAbout Prime Video:\nWant to watch it now? We've got it. This week's newest movies, last night's TV shows, classic favorites, and more are available to stream instantly, plus all your videos are stored in Your Video Library. Over 150,000 movies and TV episodes, including thousands for Amazon Prime members at no additional cost.\n \nGet More Prime Video: \nStream Now: http://bit.ly/WatchMorePrimeVideo\nFacebook: http://bit.ly/PrimeVideoFB\nTwitter: http://bit.ly/PrimeVideoTW\nInstagram: http://bit.ly/primevideoIG\n \nInvincible - Season 2 Teaser | Prime Video\nhttps://youtu.be/vjDOpHuUppU\n \nPrime Video\nhttps://www.youtube.com/PrimeVideo\n\n#Invincible #Teaser #PrimeVideo",
                 "thumbnails": {
                     "default": {
-                        "url": "https://i.ytimg.com/vi/g8C7gj8n4Jw/default.jpg",
+                        "url": "https://i.ytimg.com/vi/vjDOpHuUppU/default.jpg",
                         "width": 120,
                         "height": 90
                     },
                     "medium": {
-                        "url": "https://i.ytimg.com/vi/g8C7gj8n4Jw/mqdefault.jpg",
+                        "url": "https://i.ytimg.com/vi/vjDOpHuUppU/mqdefault.jpg",
                         "width": 320,
                         "height": 180
                     },
                     "high": {
-                        "url": "https://i.ytimg.com/vi/g8C7gj8n4Jw/hqdefault.jpg",
+                        "url": "https://i.ytimg.com/vi/vjDOpHuUppU/hqdefault.jpg",
                         "width": 480,
                         "height": 360
                     },
                     "standard": {
-                        "url": "https://i.ytimg.com/vi/g8C7gj8n4Jw/sddefault.jpg",
+                        "url": "https://i.ytimg.com/vi/vjDOpHuUppU/sddefault.jpg",
                         "width": 640,
                         "height": 480
                     },
                     "maxres": {
-                        "url": "https://i.ytimg.com/vi/g8C7gj8n4Jw/maxresdefault.jpg",
+                        "url": "https://i.ytimg.com/vi/vjDOpHuUppU/maxresdefault.jpg",
                         "width": 1280,
                         "height": 720
                     }
                 },
-                "channelTitle": "KBS시사직격",
+                "channelTitle": "Prime Video",
                 "tags": [
-                    "KBS",
-                    "임재성",
-                    "다큐",
-                    "다큐멘터리",
-                    "인터뷰",
-                    "레전드",
-                    "cctv",
-                    "원인",
-                    "후기",
-                    "그것이알고싶다",
-                    "실태",
-                    "참교육",
-                    "루나",
-                    "코인",
-                    "사기",
-                    "한계기업",
-                    "코스피",
-                    "주식",
-                    "전망",
-                    "부동산",
-                    "경제 침체",
-                    "인플레이션",
-                    "슈카"
+                    "invincible official teaser",
+                    "invincible teaser",
+                    "invincible 2022",
+                    "official teaser",
+                    "teaser",
+                    "teaser 2022",
+                    "new amazon teaser",
+                    "invincible prime video",
+                    "prime video invincible",
+                    "invincible",
+                    "prime video",
+                    "amazon prime video",
+                    "amazon prime",
+                    "prime",
+                    "amazon",
+                    "invincible season 2",
+                    "official teasers 2023",
+                    "invincible clips"
+                ],
+                "categoryId": "24",
+                "liveBroadcastContent": "none",
+                "localized": {
+                    "title": "Invincible - Season 2 Teaser | Prime Video",
+                    "description": "Welcome to Burger Mart! Enjoy a hot meal along with an update on Season 2 of INVINCIBLE. Featuring Steven Yeun as the voice of Invincible and Seth Rogen as the voice of Allen The Alien.\n\n» SUBSCRIBE: http://bit.ly/PrimeVideoSubscribe \n\nAbout Prime Video:\nWant to watch it now? We've got it. This week's newest movies, last night's TV shows, classic favorites, and more are available to stream instantly, plus all your videos are stored in Your Video Library. Over 150,000 movies and TV episodes, including thousands for Amazon Prime members at no additional cost.\n \nGet More Prime Video: \nStream Now: http://bit.ly/WatchMorePrimeVideo\nFacebook: http://bit.ly/PrimeVideoFB\nTwitter: http://bit.ly/PrimeVideoTW\nInstagram: http://bit.ly/primevideoIG\n \nInvincible - Season 2 Teaser | Prime Video\nhttps://youtu.be/vjDOpHuUppU\n \nPrime Video\nhttps://www.youtube.com/PrimeVideo\n\n#Invincible #Teaser #PrimeVideo"
+                },
+                "defaultAudioLanguage": "en"
+            },
+            "contentDetails": {
+                "duration": "PT2M13S",
+                "dimension": "2d",
+                "definition": "hd",
+                "caption": "true",
+                "licensedContent": true,
+                "contentRating": {},
+                "projection": "rectangular"
+            },
+            "statistics": {
+                "viewCount": "2252155",
+                "likeCount": "152240",
+                "favoriteCount": "0",
+                "commentCount": "6767"
+            }
+        },
+        {
+            "kind": "youtube#video",
+            "etag": "Y9nRGtnWluamr46LGrVM1-uGylY",
+            "id": "I5M7oEkQpWM",
+            "snippet": {
+                "publishedAt": "2023-01-20T17:49:06Z",
+                "channelId": "UChRlaISXbl2gECFAmDzxgzg",
+                "title": "We Built a Twin Turbo Ram TRX For Trailer Racing",
+                "description": "Check Out Hellion Turbos: https://www.hellionturbo.com/\nWe Built a Twin Turbo Ram TRX For Trailer Racing\nGet your Redneck Science Clothing ► https://westengw.com/\n\nADD ME ON\nInstagram: https://www.instagram.com/westengw​​\nFacebook: https://www.facebook.com/westengw",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/I5M7oEkQpWM/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/I5M7oEkQpWM/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/I5M7oEkQpWM/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/I5M7oEkQpWM/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    },
+                    "maxres": {
+                        "url": "https://i.ytimg.com/vi/I5M7oEkQpWM/maxresdefault.jpg",
+                        "width": 1280,
+                        "height": 720
+                    }
+                },
+                "channelTitle": "Westen Champlin",
+                "categoryId": "2",
+                "liveBroadcastContent": "none",
+                "defaultLanguage": "en",
+                "localized": {
+                    "title": "We Built a Twin Turbo Ram TRX For Trailer Racing",
+                    "description": "Check Out Hellion Turbos: https://www.hellionturbo.com/\nWe Built a Twin Turbo Ram TRX For Trailer Racing\nGet your Redneck Science Clothing ► https://westengw.com/\n\nADD ME ON\nInstagram: https://www.instagram.com/westengw​​\nFacebook: https://www.facebook.com/westengw"
+                },
+                "defaultAudioLanguage": "en"
+            },
+            "contentDetails": {
+                "duration": "PT10M37S",
+                "dimension": "2d",
+                "definition": "hd",
+                "caption": "false",
+                "licensedContent": true,
+                "contentRating": {},
+                "projection": "rectangular"
+            },
+            "statistics": {
+                "viewCount": "664654",
+                "likeCount": "38162",
+                "favoriteCount": "0",
+                "commentCount": "1961"
+            }
+        },
+        {
+            "kind": "youtube#video",
+            "etag": "NLBte_LT-WC2zwLXEpFn5dCkmK8",
+            "id": "VYJtb2YXae8",
+            "snippet": {
+                "publishedAt": "2023-01-20T17:38:24Z",
+                "channelId": "UCLXo7UDZvByw2ixzpQCufnA",
+                "title": "Why we all need subtitles now",
+                "description": "It's not you — the dialogue in TV and movies has gotten harder to hear.\n\nSubscribe and turn on notifications 🔔 so you don't miss any videos: http://goo.gl/0bsAjO \n\nHave you ever been watching a show or movie, and then a character delivers a line so unintelligible you have to scramble to find the remote and rewind? For me, this moment came during the climax of the Pete Davidson film “The King of Staten Island,” where his most important line was impossible to understand. \n\nI had to rewind three times — and eventually put subtitles on — to finally pick up what he was saying.\n\nThis experience isn’t unique — gather enough people together and you can generally separate them into two categories: People who use subtitles, and people who don’t. And according to a not-so-scientific YouTube poll we ran on our Community tab, the latter category is an endangered species — 57% of you said you always use subtitles, while just 12% of you said you generally don’t.\n \nBut why do so many of us feel that we need subtitles to understand the dialogue in the things we watch?\n\nThe answer to that question is complex – and we get straight to the bottom of it in this explainer, with the help of dialogue editor Austin Olivia Kendrick.\n\nMake sure you never miss behind-the-scenes content in the Vox Video newsletter, sign up here: http://vox.com/video-newsletter\n\nVox.com is a news website that helps you cut through the noise and understand what's really driving the events in the headlines. Check out http://www.vox.com\n\nSupport Vox's reporting with a one-time or recurring contribution: http://vox.com/contribute-now\n\nShop the Vox merch store: http://vox.com/store\n\nWatch our full video catalog: http://goo.gl/IZONyE\n\nFollow Vox on Facebook: http://facebook.com/vox\nFollow Vox on Twitter: http://twitter.com/voxdotcom\nFollow Vox on TikTok: http://tiktok.com/@voxdotcom",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/VYJtb2YXae8/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/VYJtb2YXae8/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/VYJtb2YXae8/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/VYJtb2YXae8/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    },
+                    "maxres": {
+                        "url": "https://i.ytimg.com/vi/VYJtb2YXae8/maxresdefault.jpg",
+                        "width": 1280,
+                        "height": 720
+                    }
+                },
+                "channelTitle": "Vox",
+                "tags": [
+                    "Vox.com",
+                    "accessibility",
+                    "explain",
+                    "explainer",
+                    "hearing",
+                    "movies",
+                    "production",
+                    "sound mixing",
+                    "subtitles",
+                    "television",
+                    "theaters",
+                    "tv shows",
+                    "vox",
+                    "hard of hearing",
+                    "deaf",
+                    "mumbling",
+                    "tenet",
+                    "christopher nolan movie dialogue",
+                    "dialogue in movies",
+                    "dialogue in tv",
+                    "vox ed vega",
+                    "downmixing",
+                    "down mixing",
+                    "stereo",
+                    "5.1",
+                    "7.1",
+                    "atmos surround sound",
+                    "dolby sound",
+                    "audio mixing",
+                    "production mixing",
+                    "prerecording mix"
                 ],
                 "categoryId": "25",
                 "liveBroadcastContent": "none",
-                "defaultLanguage": "ko",
                 "localized": {
-                    "title": "[full] 침체의 서막 1부 - 모두가 가난해진다 | 시사직격 신년특집 KBS 230106 방송",
-                    "description": "방송일시 : 2023년 1월 6일 금요일 밤 10시\n유난히 추웠던 2022년 겨울. 여의도 증권가에서는 벌써 수천 명을 대상으로 구조조정 칼바람 소식이 불어닥친다. 전문가들은 앞다퉈 곧 지금보다 더욱 견디기 힘든 경기 침체가 시작될 것이라며 암울한 전망을 내놓는다. \n기대보다는 두려움이 더 큰 2023년. 정말 우리는 모두 가난해질까.\n\n■ 자장면의 배신, 서민의 몰락\n서민물가의 지표였던 자장면값마저 평균 6,000원을 넘어섰다. 지난해 소비자 물가 상승 지수는 5.1%로, IMF 외환위기 이후 24년 만에 최고 수준을 기록했다. \n팬데믹의 여파와 러시아-우크라이나 전쟁으로 촉발된 고물가 시대는 서민들에게 더 가혹하다. 소비자의 지갑이 얇아지자 일부 농수산물은 오히려 가격이 폭락해, 농어민들이 생산을 포기해버리는 역설이 벌어지기도 한다. 치솟는 물가에 자영업의 마지막 보루였던 노점상마저 찾아보기 어려워졌다. \n인플레이션으로부터 무너져가는 사회 곳곳의 약한 고리들. 2023년에도 지속될 것으로 보이는 고물가 시대의 여파는 어느 정도인가.\n\n“어쩔 수 없이 가격을 천 원씩 올렸어요.  안 올리고 싶었는데 밀가루값이 너무 많이 오르니까. 재료비가 얼마인지 이런 걸 안 봐요. 아예 보고 싶지도 않은 거예요.”\n최미경 / 중식당 운영 -\n\n“기름값도 비싸죠. 인건비는 인건비대로 올라가죠. 고기 시세가 같이 따라서 올라가 주면 괜찮은데 자꾸 떨어지다 보니까 옛날만큼 잡아서는 지탱하기가 힘들어요. 붙잡고 있다가는 망하게 생겼어요.”\n안장남 / 어민 - \n\n■ 더 많이 뛰어야 살아남는다\n‘新 경제중심지’로 불리는 평택 고덕신도시 반도체 공장. 이곳에는 6만 명이 넘는 일용직 건설 근로자들이 동이 트기도 전 하루를 시작한다. 자영업자, 공무원 등 각계각층의 이들이 이곳으로 몰려든 이유는 근로 시간의 제약이 적고 더 많이 일할 수 있다는 이점 때문이다.\n전라남도 해남에서 자영업을 하던 임상진 씨(45세)도 그중 한 명이다. 매일 새벽 4시에 출근해 저녁 8시까지 총 16시간을 일하며 한 달 내리 만근을 찍었다. 근무표가 빼곡하게 채워지는 만큼 어린 두 아이와 함께할 시간은 줄어들지만, 이 또한 지나가리라는 믿음으로 새벽 출근길에 오른다.\n\n본업만으로는 생계유지가 어려워진 A씨. 그는 이른바 ‘오픈런’이라 알려진 명품구매 대행 줄서기 아르바이트로 부수입을 올린다. 최근에는 자투리 시간을 이용해 부업을 하려는 사람들이 모여들며 구인시장도 호황을 맞았다. 자정부터 아침까지, 백화점 앞에서 추위에 떨며 밤을 꼬박 지샌 A씨가 수중에 얻은 돈은 10여만 원. 손등이 부르터도 할 수 있는 일이 있어 감사하다고 말한다.\n\n전국경제인연합회의 조사에 따르면 본업 외 부업을 뛰는 가장의 수가 5년 만에 41%나 상승하며 역대 최대치를 기록했다. 치솟는 물가에 실질임금이 7개월 연속 하락하면서 이전과 같은 벌이로 생계유지도 어려워진 이들은 더 오래, 더 많이 일하기 위해 또 다른 직업을 찾아 나선다. ‘N잡러’는 더 이상 새로운 문화가 아닌 불가피한 현실, 생존의 문제이다. \n\n“몸은 조금 힘들어도 여기에 온 보람은 있죠. 일 한 시간만큼 급여가 많이 나오니까. 지금은 악착같이 살면서 가능한 몸을 갈아 넣고 있습니다.”\n- 임상진 / 건설 일용직 근로자 -\n\n\"하도 빠져나가는 돈이 많아서... 공과금에, 생활비에, 관리비까지 진짜 죽겠어요. 물가는 오르고 임금은 안 오르고.\"\n- 오픈런 아르바이트 종사자 A씨 -\n\n■ ‘진짜 위기’는 아직 오지 않았다\n팬데믹 이후 매출이 25%가량 급감하며 한계기업으로 분류된 경기도의 한 엔진 제조업체. 24명이었던 직원을 15명으로 감축하고 정책지원자금으로 대출을 받아 버텨왔으나 금리가 오르며 대출금 상환 만기까지 다가와 한 치 앞을 장담하기 어려운 상황에 놓였다. \n27년 업력, 32억 매출을 자랑하던 김해의 한 중공업체는 작년 9월, 회사 담보대출을 갚지 못하고 결국 파산을 선고했다. 갑작스럽게 해고 통보를 받은 직원 모두 이곳에서 10여 년이 훌쩍 넘게 근무한 사람들이었다. 대부분 50대 후반부터 60대. 새로운 일자리를 찾아 나서기도 쉽지 않은 한 가장의 아버지들은 밀린 임금과 퇴직금도 정산받지 못한 채 거리로 내몰렸다.\n경기 침체에 대한 불안감이 커지는 가운데, 일부 경제 전문가들은 아직도 ‘진짜 위기’는 시작되지 않았다고 말한다. 금융투자협회에 따르면 내년 상반기 만기가 도래하는 회사채 규모만 53조를 넘는다. 지난 2년여의 팬데믹 시절을 저금리대출로 연명해오던 ‘한계기업’들이 줄도산을 맞는 순간, 본격적인 체감 위기를 가져올 고용 한파가 시작된다는 것이다. \n\n”기업들의 영업이익 감소와 고금리로 상승한 이자 비용에 대한 반응이 일어나고 있기 때문에, 2023년에는 한계기업 비중이 상당폭 상승할 것으로 보입니다.“\n서경란 / ‘ㄱ’은행 경제연구소 중소기업팀장 - \n\n탐사 보도의 노하우와 정통 다큐멘터리의 기획력을 더했다! 《시사직격》\n일본 강제동원 손해배상사건과 제주 4.3 군사재판 희생자들의 재심사건 담당.\n거대한 국가 폭력에 항거하는 피해자의 곁을 묵묵히 지켰던 임재성 변호사와 함께합니다.\n\n매주 금요일 밤 10시, KBS 1TV 방송\n✔ 제보 : 010-4828-0203 / 시사직격 홈페이지 / betterkbs@gmail.com\n▶홈페이지 : http://program.kbs.co.kr/1tv/culture/direct/pc/index.html\n▶트위터 : https://twitter.com/KBSsisajg\n▶페이스북 : https://www.facebook.com/kbssisajg1\n▶인스타그램 : www.instagram.com/kbssisajg\n▶저작권·이의제기 등 유튜브 영상문의 : ssjkkbs@gmail.com"
+                    "title": "Why we all need subtitles now",
+                    "description": "It's not you — the dialogue in TV and movies has gotten harder to hear.\n\nSubscribe and turn on notifications 🔔 so you don't miss any videos: http://goo.gl/0bsAjO \n\nHave you ever been watching a show or movie, and then a character delivers a line so unintelligible you have to scramble to find the remote and rewind? For me, this moment came during the climax of the Pete Davidson film “The King of Staten Island,” where his most important line was impossible to understand. \n\nI had to rewind three times — and eventually put subtitles on — to finally pick up what he was saying.\n\nThis experience isn’t unique — gather enough people together and you can generally separate them into two categories: People who use subtitles, and people who don’t. And according to a not-so-scientific YouTube poll we ran on our Community tab, the latter category is an endangered species — 57% of you said you always use subtitles, while just 12% of you said you generally don’t.\n \nBut why do so many of us feel that we need subtitles to understand the dialogue in the things we watch?\n\nThe answer to that question is complex – and we get straight to the bottom of it in this explainer, with the help of dialogue editor Austin Olivia Kendrick.\n\nMake sure you never miss behind-the-scenes content in the Vox Video newsletter, sign up here: http://vox.com/video-newsletter\n\nVox.com is a news website that helps you cut through the noise and understand what's really driving the events in the headlines. Check out http://www.vox.com\n\nSupport Vox's reporting with a one-time or recurring contribution: http://vox.com/contribute-now\n\nShop the Vox merch store: http://vox.com/store\n\nWatch our full video catalog: http://goo.gl/IZONyE\n\nFollow Vox on Facebook: http://facebook.com/vox\nFollow Vox on Twitter: http://twitter.com/voxdotcom\nFollow Vox on TikTok: http://tiktok.com/@voxdotcom"
                 },
-                "defaultAudioLanguage": "ko"
+                "defaultAudioLanguage": "en"
             },
             "contentDetails": {
-                "duration": "PT48M33S",
+                "duration": "PT10M43S",
                 "dimension": "2d",
                 "definition": "hd",
-                "caption": "false",
+                "caption": "true",
                 "licensedContent": true,
                 "contentRating": {},
                 "projection": "rectangular"
             },
             "statistics": {
-                "viewCount": "2250916",
-                "likeCount": "29890",
+                "viewCount": "1166486",
+                "likeCount": "52338",
                 "favoriteCount": "0",
-                "commentCount": "8375"
-            }
-        },
-        {
-            "kind": "youtube#video",
-            "etag": "3pGsI1Tx4YdGS6LIMYL30Ume210",
-            "id": "QOMO6HVmmuQ",
-            "snippet": {
-                "publishedAt": "2023-01-09T11:01:18Z",
-                "channelId": "UCsIAfWi3uxjnQPpdvBgBI4Q",
-                "title": "한국 찜질방 처음 와본 브라질 처제의 반응 (한국여행 2편)",
-                "description": "낮에 북촌 갔다가 인사동으로 내려와서\n저녁에는 식구들 다 같이 찜질방에 갔습니다",
-                "thumbnails": {
-                    "default": {
-                        "url": "https://i.ytimg.com/vi/QOMO6HVmmuQ/default.jpg",
-                        "width": 120,
-                        "height": 90
-                    },
-                    "medium": {
-                        "url": "https://i.ytimg.com/vi/QOMO6HVmmuQ/mqdefault.jpg",
-                        "width": 320,
-                        "height": 180
-                    },
-                    "high": {
-                        "url": "https://i.ytimg.com/vi/QOMO6HVmmuQ/hqdefault.jpg",
-                        "width": 480,
-                        "height": 360
-                    },
-                    "standard": {
-                        "url": "https://i.ytimg.com/vi/QOMO6HVmmuQ/sddefault.jpg",
-                        "width": 640,
-                        "height": 480
-                    },
-                    "maxres": {
-                        "url": "https://i.ytimg.com/vi/QOMO6HVmmuQ/maxresdefault.jpg",
-                        "width": 1280,
-                        "height": 720
-                    }
-                },
-                "channelTitle": "Family Kim 패밀리김",
-                "tags": [
-                    "패밀리김",
-                    "브라질",
-                    "처제",
-                    "아내",
-                    "Brasil",
-                    "Coreano"
-                ],
-                "categoryId": "19",
-                "liveBroadcastContent": "none",
-                "defaultLanguage": "ko",
-                "localized": {
-                    "title": "한국 찜질방 처음 와본 브라질 처제의 반응 (한국여행 2편)",
-                    "description": "낮에 북촌 갔다가 인사동으로 내려와서\n저녁에는 식구들 다 같이 찜질방에 갔습니다"
-                },
-                "defaultAudioLanguage": "ko"
-            },
-            "contentDetails": {
-                "duration": "PT15M6S",
-                "dimension": "2d",
-                "definition": "hd",
-                "caption": "false",
-                "licensedContent": true,
-                "contentRating": {},
-                "projection": "rectangular"
-            },
-            "statistics": {
-                "viewCount": "418786",
-                "likeCount": "24854",
-                "favoriteCount": "0",
-                "commentCount": "1551"
+                "commentCount": "3655"
             }
         }
     ],

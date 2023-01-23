@@ -89,9 +89,9 @@
 
 - [X] 로고
   - 클릭 시, 홈으로 이동
-- [ ] 검색창
+- [X] 검색창
   - 해당 제목으로 영상 검색
-- [ ] 로그인
+- [X] 로그인
   - 구글 연동
     <br/><br/>
 
@@ -102,7 +102,7 @@
 
   ### 2-1. VideoCard
 
-  - [ ] 영상 클릭 시, 해당 영상 VideoDetail 페이지로 넘어감.
+  - [X] 영상 클릭 시, 해당 영상 VideoDetail 페이지로 넘어감.
   - [X] 썸네일
   - [X] 영상 제목
   - [X] 채널명
@@ -121,7 +121,7 @@
 
 - [ ] 화면 렌더링 중일땐 `Loading...` 출력
 - [X] 페이지에 에러 발생 시, NotFound 페이지로 넘어감.
-- [ ] 반응형
+- [X] 반응형
 
 <br/><br/>
 
@@ -139,5 +139,18 @@
       <td><img src="https://i.ibb.co/2yBFch9/230117-adblock.png" alt="230117-adblock" border="0"><br/>디테일 페이지에서 영상 가져올 떄 발생하는 에러</td>
       <td>크롬에 adblock이 설치되어 있어서 뜨는 에러. 무시해도 잘 작동함.</td>
     </tr>
-  </tbody>
+    <tr>
+      <td><img src="https://slack-imgs.com/?c=1&o1=ro&url=https%3A%2F%2Fuser-images.githubusercontent.com%2F64674174%2F213912869-318ab25a-9faf-4940-9278-a66bc683b414.png" alt="230117-adblock" border="0"><br/><code>npm run start</code> 터미널에서 발생하는 경고 메세지</td>
+      <td>root경로에 있는 파일에 <code>GENERATE_SOURCEMAP=false</code> 추가</td>
+    </tr>
+    <tr>
+      <td><a href="https://ibb.co/3vbDvSg"><img src="https://i.ibb.co/3vbDvSg/2023-01-19-160931.png" alt="2023-01-19-160931" border="0"></a><a href="https://ibb.co/VJtJ6yv"><img src="https://i.ibb.co/VJtJ6yv/image.png" alt="image" border="0"></a><br/>netlify 배포 에러</td>
+      <td> <a href="https://ibb.co/VT6bJzg"><img src="https://i.ibb.co/VT6bJzg/2023-01-19-221714.png" alt="2023-01-19-221714" border="0"></a> <br/>사용하지 않는 코드나 import 정리하기</td>
+    </tr>
+    <tr>
+      <td><img src="https://i.ibb.co/54s4zCC/image.png" alt="image" border="0"></td>
+      <td>상세 페이지에 동영상을 제외한 정보들은 youtube api 의 일일할당량 때문에 localStorage 로 저장하여 구현하고 있어서 첫번째로 들어간 상세페이지의 동영상 정보들이 출력됩니다 </td>
+    </tr>
+    </tbody>
 </table>
+

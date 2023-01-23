@@ -1,30 +1,40 @@
-import { useEffect, useState } from 'react';
+import { useContext, useEffect, useState } from 'react';
 import './VideoCard.scss';
 import { FiMoreVertical } from 'react-icons/fi';
-import axios from 'axios';
 import { viewCountConverter } from 'src/util/viewCountConverter';
 import { uploadedDate } from 'src/util/uploadedDate';
 import { Link } from 'react-router-dom';
+// import { getSearchData } from 'src/api/requests';
+import { ShowContext } from 'src/contexts/store';
+import { getPopularData } from 'src/api/requests';
 
 export default function VideoCard() {
   const ytDurationFormat = require('youtube-duration-format');
   const [datas, setDatas] = useState([]);
+  const [shownav] = useContext(ShowContext);
 
   useEffect(() => {
     const getData = async () => {
-      const res = (await axios.get('./videos/popular.json')).data.items;
-      console.log('res', res);
-      setDatas(res);
+      // const res = (await axios.get('./videos/popular.json')).data.items;
+      const res = await getPopularData();
+      setDatas(res.data.items);
     };
     getData();
   }, []);
 
-  console.log('datas', datas);
+  // useEffect(() => {
+  //   const getData = async () => {
+  //     const res = await getSearchData('빠더너스');
+  //     console.log('res', res.data.items);
+  //     setDatas(res.data.items);
+  //   };
+  //   getData();
+  // }, []);
 
   return (
     <>
       {datas.map((data) => (
-        <li className="videoCard" key={data.id}>
+        <li className="videoCard" key={data.id} nav-check={shownav ? 'show' : 'none'}>
           <Link to={`/videos/watch/${data.id}`} state={{ channelId: data.snippet.channelId }}>
             <div className="videoPreview">
               <img src={data.snippet.thumbnails.medium.url} alt={data.snippet.title} />

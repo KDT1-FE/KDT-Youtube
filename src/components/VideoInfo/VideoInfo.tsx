@@ -12,9 +12,8 @@ const VideoInfo = ({ videoData }) => {
     <div className="videoInfo">
       <div className="infoTxts">
         <ul className="tags">
-          {videoData.snippet.tags.slice(0, 5).map((tag: string, index: number) => (
-            <li key={index}>#{tag}</li>
-          ))}
+          {videoData.snippet.tags &&
+            videoData.snippet.tags.slice(0, 5).map((tag: string, index: number) => <li key={index}>#{tag}</li>)}
         </ul>
         <h2 className="title">{videoData.snippet.localized.title}</h2>
         <p className="etc">

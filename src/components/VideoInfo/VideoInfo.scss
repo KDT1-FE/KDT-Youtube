@@ -1,3 +1,5 @@
+@import '../../index.scss';
+
 .videoInfo {
   display: flex;
   padding: 1rem 0;
@@ -23,7 +25,7 @@
 
     .etc {
       padding: 0.5rem 0;
-      color: #aaa;
+      color: $secondary-text-color;
       font-size: 0.9rem;
     }
   }

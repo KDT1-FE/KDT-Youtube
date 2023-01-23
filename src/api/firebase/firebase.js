@@ -1,5 +1,5 @@
 import { initializeApp } from 'firebase/app';
-import { getAuth, GoogleAuthProvider, signInWithPopup, signOut } from 'firebase/auth';
+import { getAuth, GoogleAuthProvider, onAuthStateChanged, signInWithPopup, signOut } from 'firebase/auth';
 
 const firebaseConfig = {
   apiKey: process.env.REACT_APP_FIREBASE_API_KEY,
@@ -15,16 +15,19 @@ const provider = new GoogleAuthProvider();
 
 // 로그인
 export function login() {
-  signInWithPopup(auth, provider)
-    .then((result) => {
-      console.log(result);
-    })
-    .catch(console.error);
+  signInWithPopup(auth, provider).catch(console.error);
 }
 
 // 로그아웃
 export function logout() {
   signOut(auth).catch(console.error);
+}
+
+// 로그인 상태 관찰하여 유지
+export function onUserStateChange(callback) {
+  onAuthStateChanged(auth, (user) => {
+    callback(user);
+  });
 }
 
 export default app;

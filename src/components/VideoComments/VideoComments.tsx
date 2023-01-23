@@ -3,7 +3,7 @@ import { BiLike, BiDislike } from 'react-icons/bi';
 import { uploadedDate } from 'src/util/uploadedDate';
 import './VideoComments.scss';
 
-const VideoComments = ({ videoId, commentData, commentCount }) => {
+const VideoComments = ({ commentData, commentCount }) => {
   return (
     <ul className="VideoComments">
       <p className="commentCount">{commentCount} Comments</p>

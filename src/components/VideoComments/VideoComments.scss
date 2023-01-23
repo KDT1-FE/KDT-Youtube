@@ -1,4 +1,6 @@
-$font-gray: #aaa;
+@import '../../index.scss';
+
+$font-gray: $secondary-text-color;
 
 .VideoComments {
   padding: 1rem 0;

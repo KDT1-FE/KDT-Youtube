@@ -4,6 +4,7 @@ import { getSearchData } from 'src/api/requests';
 import { ShowContext } from 'src/contexts/store';
 import './VideoSearch.scss';
 import VideoSearchInfo from './VideoSearchInfo/VideoSearchInfo';
+import VideoSearchThum from './VideoSearchThum/VideoSearchThum';
 
 function VideoSearch() {
   const [shownav] = useContext(ShowContext);
@@ -14,15 +15,8 @@ function VideoSearch() {
     const getData = async () => {
       const res = await getSearchData(keyword);
       setData(res.data.items);
-      console.log(res.data);
     };
     getData();
-    // const getSearchData = async () => {
-    //   const res = await axios.get(`/videos/search.json`);
-    //   setData(res.data.items);
-    //   console.log(res);
-    // };
-    // getSearchData();
   }, [keyword]);
 
   return (
@@ -32,11 +26,8 @@ function VideoSearch() {
           return (
             <Link to={`/videos/watch/${item.id.videoId}`} key={index} state={{ channelId: item.snippet.channelId }}>
               <div className="search-video-list">
-                <div className="search-thumbnails">
-                  <img src={item.snippet.thumbnails.high.url} alt={item.snippet.title} />
-                  <p></p>
-                </div>
-                <VideoSearchInfo videoId={item.id.videoId}  channelId={item.snippet.channelId}/>
+                <VideoSearchThum videoId={item.id.videoId} />
+                <VideoSearchInfo videoId={item.id.videoId} channelId={item.snippet.channelId} />
               </div>
             </Link>
           );
