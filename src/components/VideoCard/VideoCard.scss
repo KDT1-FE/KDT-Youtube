@@ -1,0 +1,117 @@
+@import '../../index.scss';
+
+.contents {
+  padding-right: 0;
+}
+
+.videoCard {
+  color: #fff;
+  font-size: 1rem;
+  letter-spacing: 0.2px;
+  margin-bottom: 50px;
+  width: calc((100% / 4) - 10px);
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+  @media (max-width: 1024px) {
+    width: calc((100% / 3) - 10px);
+  }
+  @media (max-width: 768px) {
+    width: calc((100% / 2) - 10px);
+  }
+  @media (max-width: 500px) {
+    width: 100%;
+    min-width: 250px;
+  }
+}
+
+.videoCard[nav-check='show'] {
+  @media (max-width: 1024px) {
+    width: 80%;
+    max-width: 300px;
+    min-width: 240px;
+  }
+  @media (max-width: 768px) {
+    // width: 80%;
+    width: 300px;
+    // min-width: 240px;
+  }
+  @media (max-width: 500px) {
+    // width: 80%;
+    width: 300px;
+  }
+}
+
+.videoPreview {
+  overflow: hidden;
+  position: relative;
+  border-radius: 10px;
+  width: 100%;
+  img {
+    aspect-ratio: 180 / 101;
+    object-fit: cover;
+    width: 100%;
+    align-items: center;
+  }
+  .videoDuration {
+    padding: 3px 4px;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 7px;
+    right: 5px;
+    background-color: black;
+    border-radius: 5px;
+    font-size: 0.9rem;
+    font-weight: 500;
+    span {
+      font-weight: 600;
+    }
+  }
+}
+
+.videoInfoContainer {
+  display: flex;
+  gap: 1.2rem;
+  margin-top: 20px;
+  position: relative;
+  .avatarContainer {
+    img {
+      width: 36px;
+      height: 36px;
+      border-radius: 50%;
+    }
+  }
+  .videoTextContainer {
+    padding-right: 30px;
+    height: 90px;
+    .videoInfo {
+      display: block;
+      font-size: 0.8rem;
+      letter-spacing: 0.2px;
+      border-bottom: none;
+    }
+    .channelName,
+    .metaTag {
+      color: $secondary-text-color;
+      font-weight: 400;
+      line-height: 18px;
+    }
+  }
+  .dotContainer {
+    font-size: 20px;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+}
+
+h3 {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+  margin-bottom: 10px;
+  line-height: 20px;
+}

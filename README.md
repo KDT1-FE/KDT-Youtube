@@ -1,77 +1,156 @@
-유튜브 앱 작성
+# :sparkles: [Youtube Clone Toy Project (Demo)](https://kdt3-team7-react-youtube-app.netlify.app)
 
-유튜브앱 설명자료:
-https://docs.google.com/document/d/1vHlO8lgIo1oXBYiecpE8TbG2tHnr3Hmv25UxK_7a5_g/edit#
+#### 프로젝트 문서는 [여기](https://docs.google.com/spreadsheets/d/1EhoF12aqxV7dyYcOJNbmAZO6rkJGMgtNTbrpR0zFBcM/edit#gid=0)에서 확인하실 수 있습니다.
 
-목표: 유튜브 앱을 만든다.
+<br/><br/>
 
-수행 기간: 오늘 ~ 2023.01.20(금) 까지
-리뷰 기간:
-제출 방법:
-main 혹은 다른 사람의 브랜치로 절대 병합하지 않도록 주의하세요!
-혹시 문제가 발생한 경우, 바로 강사에게 알려주세요!
-현재 깃헙 저장소를 클론!
-확인 가능하도록 본명으로 브랜치 생성! 
-과제 수행 후 원격 저장소로 푸시! 
-현재 깃헙 저장소에서 main 브랜치로 Pull Request 생성하면 제출 완료!
-Pull Request 설명을 꼼꼼하게 작성!
+## :raising_hand: Member
 
-요구사항
-다음 요구사항은 필수로 구현하고 그 외 기능은 마음대로 추가할 수 있다.
-유튜브 api를 사용해서 유튜브 데이터를 가져옵니다. 
+<table border>
+  <tbody>
+    <tr>
+      <td align="center" width="150px">
+        <img width="100%" src="https://avatars.githubusercontent.com/u/103119275?v=4"  alt=""/>
+        <center>FE. 팀원</center>
+        <br/>
+        <a href="https://github.com/Hyeeeein">
+          <img src="https://img.shields.io/badge/김혜인-2596be?style=flat-round&logo=GitHub&logoColor=white"/>
+        </a>
+      </br>
+      <td align="center" width="150px">
+        <img width="100%" src="https://avatars.githubusercontent.com/u/103406196?v=4"  alt=""/>
+        <center>FE. 팀원</center>
+        <br/>
+        <a href="https://github.com/hyorimcho">
+          <img src="https://img.shields.io/badge/조효림-e28743?style=flat-round&logo=GitHub&logoColor=white"/>
+        </a>
+      </td>
+      <td align="center" width="150px">
+        <img width="100%" src="https://avatars.githubusercontent.com/u/76930602?v=4"  alt=""/>
+        <center>FE. 팀원</center>
+        <br/>
+        <a href="https://github.com/0nesan">
+          <img src="https://img.shields.io/badge/한수산-96be25?style=flat-round&logo=GitHub&logoColor=white"/>
+        </a>
+      </td>
+      <td align="center" width="150px">
+        <img width="100%" src="https://avatars.githubusercontent.com/u/64674174?v=4"  alt=""/>
+        <center>FE. 팀원</center>
+        <br/>
+        <a href="https://github.com/hyerimhan">
+          <img src="https://img.shields.io/badge/한혜림-FF55B6?style=flat-round&logo=GitHub&logoColor=white"/>
+        </a>
+      </td>
+     </tr>
+  </tbody>
+</table>
 
-- 유튜브 Api 사용 방법 (API KEY 생성하는 법)
-https://console.cloud.google.com/     Google cloud console로 이동하기
-Youtube Data API 활성화 시키기
-API KEY 생성하기
+<br/><br/>
 
- - 유튜브 API 요청 방법
+## :wrench: 기술 스택
+<img src="https://img.shields.io/badge/HTML-E34F26?style=flat-round&logo=HTML5&logoColor=white"/> <img src="https://img.shields.io/badge/Sass-CC6699?style=flat-round&logo=Sass&logoColor=white"/> <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-round&logo=JavaScript&logoColor=white"/> <img src="https://img.shields.io/badge/React-61DAFB?style=flat-round&logo=React&logoColor=gray"/> <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-round&logo=TypeScript&logoColor=white"/> <img src="https://img.shields.io/badge/Firebase-FFCA28?style=flat-round&logo=Firebase&logoColor=white"/>
+<br/>
 
-baseURL : https://youtube.googleapis.com/youtube/v3
+### Tools
+- <div style="display:flex; align-items: center; margin-right:10px;"><span>Deploy </span><img src="https://img.shields.io/badge/Netlify-00C7B7?style=flat-round&logo=Netlify&logoColor=white"/></div>
+- <div style="display:flex; align-items: center;"><span>버전관리 </span><img src="https://img.shields.io/badge/GitHub-181717?style=flat-round&logo=GitHub&logoColor=white"/></div>
+- <div style="display:flex; align-items: center;"><span>Docs </span><img src="https://img.shields.io/badge/Google Sheets-34A853?style=flat-round&logo=Google Sheets&logoColor=white"/></div>
 
-검색어로 인한 비디오 데이터: 
-/search?part=snippet&maxResults=10&q={검색어}
+<br/><br/>
 
-특정 비디오 데이터 : 
-/videos?part=snippet&part=contentDetails&part=player&part=statistics&id={videoId}
+## :page_with_curl: 설치된 라이브러리
 
-특정 채널 정보 데이터: 
-/channels?part=snippet&part=statistics&part=contentDetails&id={channelId}
+- ["@tanstack/react-query": "^4.22.0"](https://tanstack.com/query/latest/docs/react/overview)
+  - `useQuery` 사용
+- "axios": "^1.2.2"
+  - api과 통신하기 위한 라이브러리
+- ["react-icons": "^4.7.1"](https://react-icons.github.io/react-icons)
+  - 필요한 아이콘을 검색한 후 아이콘을 클릭하여 복사하고 프로젝트에 사용
+  - 사용예시 :point_right:<br/>
+    <img src="https://i.ibb.co/09MnYzG/2023-01-16-113151.png" alt="2023-01-16-113151" border="0">
+- ["react-router-dom": "^6.6.2"](https://reactrouter.com/en/main)
+- ["timeago.js": "^4.0.2"](https://www.npmjs.com/package/timeago.js/v/4.0.0-beta.3)
+  - 업로드 날짜를 보여주는 라이브러리
+  - 적용예시 :point_right:<br/>
+    <img src="https://i.ibb.co/JvJ3Ssv/2023-01-16-114404.png" alt="2023-01-16-114404" border="0">
+- "dotenv": "^16.0.3"
+  - apikey 숨김. `REACT_APP_API_KEY`로 apikey 사용
+- "reset-css": "^5.0.1"
+  - 스타일 초기화
+- ["youtube-duration-format": "^0.2.0"](https://www.npmjs.com/package/youtube-duration-format)
+  - 동영상 러닝타임 숫자로 변환해 주는 라이브러리
+- ["react-hook-form": "^7.42.1"](https://react-hook-form.com/)
 
-댓글 데이터: 
-/commentThreads?part=snippet&videoId={videoId}
+<br/><br/>
 
-관련 비디오 데이터: 
-/search?part=snippet&maxResults=10&relatedToVideoId=${videoId}&type=video
+## :pushpin: 기능 구현 목록
 
+### 1. Header
 
- - 요청 주의 사항 
- 
-a. 하루에 하나의 api_key에 할당된 요청 수가 있습니다. 
-그 이상 넘어가면 더 이상 요청을 못하게 되기 때문에 데이터를 가져오면 localStorage에 넣어서 localStorage에 이미 데이터가 있으면 요청을 보내지 말고 그 데이터를 이용해서 앱을 개발해 줍니다. 
+- [X] 로고
+  - 클릭 시, 홈으로 이동
+- [X] 검색창
+  - 해당 제목으로 영상 검색
+- [X] 로그인
+  - 구글 연동
+    <br/><br/>
 
-b. <React.StrictMode>를 없애도 개발을 해주세요. (요청이 두 번씩 가서 더 많은 api 호출을 하게 됩니다.)
+### 2. HOME
 
+- [X] 영상 목록
+  - public -> videos -> popular.json 목업데이터 우선 사용
 
-UI 구현 예시
-예시를 참고로 자유롭게 구현한다.
+  ### 2-1. VideoCard
 
-- 메인 화면
-youtube api 를 이용해서 원하는 검색어에 맞는 비디오 데이터를 가져옵니다. 
-가져온 데이터를 이용해서 아래와 같은 UI를 보여줍니다.
-Navigation bar (위쪽 부분) side bar (왼쪽 부분)의 UI를 조건에 따라 처리해줍니다.
+  - [X] 영상 클릭 시, 해당 영상 VideoDetail 페이지로 넘어감.
+  - [X] 썸네일
+  - [X] 영상 제목
+  - [X] 채널명
+  - [X] 조회수 &middot; 업로드날짜
 
-- 비디오 화면
-youtube api 를 이용해서 특정 비디오, 댓글, 관련 비디오 데이터를 가져옵니다. 
-가져온 데이터를 이용해서 아래와 같은 UI를 보여줍니다.
+### 3. VideoDetail
 
-- 검색 화면
-youtube api 를 이용해서 원하는 검색어에 맞는 비디오 데이터를 가져옵니다. 
-가져온 데이터를 이용해서 아래와 같은 UI를 보여줍니다.
+- [X] 영상
+- [X] 영상 제목
+- [X] 채널명
+- [X] 영상 상세 설명
+- [X] 관련 영상 목록
+- [X] 댓글
 
-주의 사항
-컴포넌트를 올바르게 나누기 
-반응형 스타일도 신경 쓰되 스타일보다는 기능 위주로 개발하기
-최대한 이해하기 쉬운 변수명, 파일명, 컴포넌트명 사용하기 
-어떠한 부분(데이터)을 위해서 State 관리 라이브러리를 사용해야 할지 생각해 보기
-React-router-dom api의 중첩 라우팅을 이용해서 레이아웃을 만들어주기
+### 4. 기타
+
+- [ ] 화면 렌더링 중일땐 `Loading...` 출력
+- [X] 페이지에 에러 발생 시, NotFound 페이지로 넘어감.
+- [X] 반응형
+
+<br/><br/>
+
+## :scream: 이슈
+
+<table border>
+  <thead>
+    <tr>
+      <th width="60%">발생 이슈</th>
+      <th>해결 방법</th>
+    </tr>
+  </thead>  
+  <tbody>
+    <tr>
+      <td><img src="https://i.ibb.co/2yBFch9/230117-adblock.png" alt="230117-adblock" border="0"><br/>디테일 페이지에서 영상 가져올 떄 발생하는 에러</td>
+      <td>크롬에 adblock이 설치되어 있어서 뜨는 에러. 무시해도 잘 작동함.</td>
+    </tr>
+    <tr>
+      <td><img src="https://slack-imgs.com/?c=1&o1=ro&url=https%3A%2F%2Fuser-images.githubusercontent.com%2F64674174%2F213912869-318ab25a-9faf-4940-9278-a66bc683b414.png" alt="230117-adblock" border="0"><br/><code>npm run start</code> 터미널에서 발생하는 경고 메세지</td>
+      <td>root경로에 있는 파일에 <code>GENERATE_SOURCEMAP=false</code> 추가</td>
+    </tr>
+    <tr>
+      <td><a href="https://ibb.co/3vbDvSg"><img src="https://i.ibb.co/3vbDvSg/2023-01-19-160931.png" alt="2023-01-19-160931" border="0"></a><a href="https://ibb.co/VJtJ6yv"><img src="https://i.ibb.co/VJtJ6yv/image.png" alt="image" border="0"></a><br/>netlify 배포 에러</td>
+      <td> <a href="https://ibb.co/VT6bJzg"><img src="https://i.ibb.co/VT6bJzg/2023-01-19-221714.png" alt="2023-01-19-221714" border="0"></a> <br/>사용하지 않는 코드나 import 정리하기</td>
+    </tr>
+    <tr>
+      <td><img src="https://i.ibb.co/54s4zCC/image.png" alt="image" border="0"></td>
+      <td>상세 페이지에 동영상을 제외한 정보들은 youtube api 의 일일할당량 때문에 localStorage 로 저장하여 구현하고 있어서 첫번째로 들어간 상세페이지의 동영상 정보들이 출력됩니다 </td>
+    </tr>
+    </tbody>
+</table>
+

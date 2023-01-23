@@ -1,0 +1,65 @@
+@import '../../index.scss';
+
+.videoInfo {
+  display: flex;
+  padding: 1rem 0;
+  position: relative;
+  border-bottom: 1px solid rgba(90, 90, 90, 0.55);
+  .infoTxts {
+    padding-bottom: 0.5rem;
+    .tags {
+      display: flex;
+      padding-top: 0.5rem;
+      li {
+        color: #09f;
+        font-size: 90%;
+        margin-right: 0.5rem;
+      }
+    }
+
+    .title {
+      padding: 1rem 0;
+      font-size: 1.3rem;
+      font-weight: bold;
+    }
+
+    .etc {
+      padding: 0.5rem 0;
+      color: $secondary-text-color;
+      font-size: 0.9rem;
+    }
+  }
+
+  .infoBtns {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    color: white;
+
+    button {
+      color: inherit;
+      padding: 1.2rem;
+      font-size: 0.875rem;
+      cursor: pointer;
+
+      svg {
+        vertical-align: top;
+      }
+      span {
+        margin-left: 0.5rem;
+        font-weight: bold;
+      }
+    }
+  }
+}
+
+@media (max-width: 800px) {
+  .videoInfo {
+    position: initial;
+    flex-direction: column;
+
+    .infoBtns {
+      position: initial;
+    }
+  }
+}
