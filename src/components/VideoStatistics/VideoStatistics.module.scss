@@ -1,0 +1,12 @@
+.statistics {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  margin-bottom: 1.1rem;
+
+  .viewCount,
+  .time {
+    color: var(--color-light-gray);
+    font-size: 0.9rem;
+  }
+}

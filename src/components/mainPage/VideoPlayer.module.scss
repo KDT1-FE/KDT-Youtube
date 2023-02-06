@@ -1,0 +1,26 @@
+.videoplayer {
+  position: relative;
+}
+.videoimage {
+  border-radius: 10px;
+}
+.videotime {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  background-color: black;
+  color: white;
+  font-weight: 500;
+  padding: 3px;
+  border-radius: 5px;
+}
+.videohover {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  background-color: black;
+  color: white;
+  padding: 5px;
+  border-radius: 5px;
+  font-size: 12px;
+}

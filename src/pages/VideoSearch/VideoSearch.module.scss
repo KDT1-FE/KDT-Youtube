@@ -1,0 +1,31 @@
+.searchPage {
+  background-color: var(--color-black);
+  padding-left: 5rem;
+
+  .noResult {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    height: 100vh;
+
+    .img {
+      width: 30%;
+    }
+
+    .info {
+      text-align: center;
+      color: var(--color-white);
+
+      .title {
+        font-size: 1.5rem;
+        margin-bottom: 1.3rem;
+      }
+    }
+  }
+
+  .videos {
+    padding: 3rem 4rem;
+  }
+}

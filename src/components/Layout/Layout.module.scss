@@ -1,0 +1,47 @@
+// 레이아웃
+.layout {
+  display: flex;
+  padding-top: 56px;
+
+  .outlet {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background-color: var(--color-black);
+  }
+}
+
+// 메뉴 버튼 상태에 따른, outlet 영역 크기 변경
+.btnFalse {
+  margin-left: 250px;
+}
+
+.btnTrue {
+  margin-left: 72px;
+}
+
+@media (min-width: 792px) and (max-width: 1300px) {
+  .btnFalse,
+  .btnTrue {
+    margin-left: 72px;
+  }
+}
+
+@media (max-width: 792px) {
+  .btnFalse,
+  .btnTrue {
+    margin-left: 0;
+  }
+}
+
+// 디테일 페이지일 때, outlet 영역 margin 조절과 사이드바 제거
+.detailPage {
+  .btnFalse,
+  .btnTrue {
+    margin-left: 0;
+  }
+
+  .sidebarNone {
+    display: none;
+  }
+}

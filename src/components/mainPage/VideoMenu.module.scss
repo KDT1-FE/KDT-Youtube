@@ -1,0 +1,22 @@
+.menu {
+  position: absolute;
+  height: fit-content;
+  width: 220px;
+  right: 0;
+  bottom: -10px;
+  background-color: var(--color-dark-gray);
+  z-index: 2;
+  border-radius: 10px;
+}
+.menulist {
+  height: 36px;
+  padding: 8px 16px;
+  width: auto;
+}
+.menubutton {
+  display: flex;
+  color: var(--color-white);
+}
+.menulist:hover {
+  background-color: var(--color-semi-dark-gray);
+}

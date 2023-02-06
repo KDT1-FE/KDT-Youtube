@@ -1,0 +1,98 @@
+.videoDataContainer {
+  color: var(--color-white);
+  display: flex;
+  flex-direction: column;
+  .videoPlayerInfo {
+    width: 100%;
+    padding: 1.2rem 0;
+    position: relative;
+    border-bottom: 1px solid rgba(90, 90, 90, 0.55);
+    h1 {
+      font-size: 21px;
+    }
+    .videoMainIntro {
+      display: flex;
+      flex-direction: column;
+      .tags {
+        display: flex;
+        color: #09f;
+        font-size: 90%;
+        .tag {
+          margin-right: 10px;
+        }
+
+        // padding-bottom: 1.5rem;
+      }
+      .VideoTitle {
+        margin-bottom: 10px;
+        padding: 1rem 1rem 1rem 0;
+      }
+    }
+    .videoStats {
+      display: flex;
+      padding: 0.5rem 0;
+      color: #aaa;
+      font-size: 14px;
+    }
+    .main_header_buttons {
+      cursor: pointer;
+      width: fit-content;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      position: absolute;
+      right: 0;
+      bottom: 0;
+      font-weight: 300;
+      font-size: 105%;
+      span {
+        margin-left: 0.5rem;
+        font-weight: 600;
+      }
+      div {
+        padding: 0.8rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .likes_container {
+        margin-bottom: -1px;
+        padding: 0;
+        border-bottom: 2px solid white;
+      }
+    }
+  }
+  .channelData {
+    margin-top: 30px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    position: relative;
+    ChannelInfo {
+      img {
+        width: 50px;
+        height: 50px;
+      }
+    }
+    .subscribeBtn {
+      position: absolute;
+      right: 0px;
+      padding: 10px 15px;
+      background-color: red;
+      color: #fff;
+      font-weight: 700;
+      border: none;
+      border-radius: 3px;
+      cursor: pointer;
+      font-size: 14px;
+      box-sizing: border-box;
+    }
+  }
+
+  .videoDescription {
+    margin-left: 32px;
+    margin-top: 1rem;
+    white-space: pre-line;
+    font-size: 14px;
+  }
+}

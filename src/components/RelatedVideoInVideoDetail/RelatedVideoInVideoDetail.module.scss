@@ -1,0 +1,77 @@
+.relatedVideoContainer {
+  margin-top: 50px;
+  width: 100%;
+  .relatedList {
+    display: flex;
+    flex-direction: column;
+    .videoCard {
+      padding: 10px;
+      box-sizing: border-box;
+      a {
+        width: 100%;
+        height: 100%;
+        text-decoration: none;
+        color: inherit;
+        display: flex;
+        flex-direction: row;
+        .videoPreviewContainer {
+          width: 140px;
+          max-width: 140px;
+          height: 80px;
+          position: relative;
+          img {
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+          }
+          .videoDuration {
+            color: #fff;
+            padding: 3px 4px;
+            background-color: #000c;
+            position: absolute;
+            bottom: 5px;
+            right: 5px;
+            font-weight: 600;
+            font-size: 90%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+          }
+        }
+        .videoInfoContainer {
+          width: 60%;
+          padding-left: 1rem;
+          font-size: 85%;
+          display: flex;
+          flex-direction: column;
+          position: relative;
+          color: var(--color-white);
+          h3 {
+            font-size: 14px;
+            padding: 0 1rem 0 0;
+            line-height: 150%;
+          }
+          .channelName {
+            line-height: 150%;
+            font-size: 12px;
+            color: #aaa;
+            &:hover,
+            &:focus {
+              color: var(--color-white);
+            }
+          }
+          .videoMetaData {
+            color: #aaa;
+
+            .videoViewPoint {
+              line-height: 150%;
+              font-size: 12px;
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,15 @@
+.detailPage {
+  display: flex;
+  background-color: var(--color-black);
+  // overflow-x: hidden;
+
+  .column1 {
+    width: 70%;
+    margin: 0 2rem;
+  }
+  .column2 {
+    width: 30%;
+    margin-top: 1rem;
+    margin-right: 2rem;
+  }
+}

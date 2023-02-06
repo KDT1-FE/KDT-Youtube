@@ -1,0 +1,651 @@
+{
+  "kind": "youtube#commentThreadListResponse",
+  "etag": "kA3mlWYLU37f_g5xRSMK5h-KDCU",
+  "nextPageToken": "QURTSl9pMmZYSU5kY3piTHhDQkNJSHQ5YUJPUU1aZlZzY0hvQWN0OTN1VlNBSUFuXzJ6Q2xJdlpmWHU1Nm9LQ0lkWktJOVZLSEViUGVXOA==",
+  "pageInfo": {
+    "totalResults": 20,
+    "resultsPerPage": 20
+  },
+  "items": [
+    {
+      "kind": "youtube#commentThread",
+      "etag": "CUFLqOZHhZMWwaoG1j5Gvu2B1QU",
+      "id": "UgyHHfPZwJMFmRApKrh4AaABAg",
+      "snippet": {
+        "videoId": "gig9-jO7YL4",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "KcD9FisBMlgB4PmW5Fmg03ydOCQ",
+          "id": "UgyHHfPZwJMFmRApKrh4AaABAg",
+          "snippet": {
+            "videoId": "gig9-jO7YL4",
+            "textDisplay": "God I love this channel! Great work guys!!",
+            "textOriginal": "God I love this channel! Great work guys!!",
+            "authorDisplayName": "jayzion23 Jones",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AMLnZu_GEEGa6axEoYLjTyWMNj7PQNyE_CA1Ad9GzK-p=s48-c-k-c0x00ffffff-no-rj",
+            "authorChannelUrl": "http://www.youtube.com/channel/UC49SrTX_GRd-QmEbpPC6PGg",
+            "authorChannelId": {
+              "value": "UC49SrTX_GRd-QmEbpPC6PGg"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 0,
+            "publishedAt": "2023-01-17T00:21:34Z",
+            "updatedAt": "2023-01-17T00:21:34Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 0,
+        "isPublic": true
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "etag": "xX52k1uzlG25it6pxmhMTG1m8Jc",
+      "id": "UgyP4d-Jh-e7rjDY-3R4AaABAg",
+      "snippet": {
+        "videoId": "gig9-jO7YL4",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "ZSfsHRvtV0VaNXqQkMQJQaEvzUA",
+          "id": "UgyP4d-Jh-e7rjDY-3R4AaABAg",
+          "snippet": {
+            "videoId": "gig9-jO7YL4",
+            "textDisplay": "沢山の国が映っている所も素晴らしいです。詳しく無い国でもこれ程美しい景観があると知れば好印象です。",
+            "textOriginal": "沢山の国が映っている所も素晴らしいです。詳しく無い国でもこれ程美しい景観があると知れば好印象です。",
+            "authorDisplayName": "壁に耳あり障子にメアリー",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/l4IrhysM_yba3-rCkc3Ij5tHF7hRTcI22pxcmv8_Km-sYphWnBbpGfn6zsyW-fzrDvNI6WWp=s48-c-k-c0x00ffffff-no-rj",
+            "authorChannelUrl": "http://www.youtube.com/channel/UCTugSV10kc5A2il0nriPWog",
+            "authorChannelId": {
+              "value": "UCTugSV10kc5A2il0nriPWog"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 0,
+            "publishedAt": "2023-01-16T01:03:54Z",
+            "updatedAt": "2023-01-16T01:03:54Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 0,
+        "isPublic": true
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "etag": "Q7kP8gFScmbOEu4mooGrFKSy2rk",
+      "id": "Ugw_6LqQl2M7kSEVMqJ4AaABAg",
+      "snippet": {
+        "videoId": "gig9-jO7YL4",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "VGmGKGgWi198BD6k254PRBYAr28",
+          "id": "Ugw_6LqQl2M7kSEVMqJ4AaABAg",
+          "snippet": {
+            "videoId": "gig9-jO7YL4",
+            "textDisplay": "Where is Turkey with Kappdokia Aspendos Pammukkale,,",
+            "textOriginal": "Where is Turkey with Kappdokia Aspendos Pammukkale,,",
+            "authorDisplayName": "Sahra Tank",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AMLnZu8UyPOQEmUKs_JerK4bJ9lT_tXlj2DXz4eCDg=s48-c-k-c0x00ffffff-no-rj",
+            "authorChannelUrl": "http://www.youtube.com/channel/UCHRpZs0wrQqPSq5m1thmhhQ",
+            "authorChannelId": {
+              "value": "UCHRpZs0wrQqPSq5m1thmhhQ"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 0,
+            "publishedAt": "2023-01-15T22:08:06Z",
+            "updatedAt": "2023-01-15T22:08:06Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 0,
+        "isPublic": true
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "etag": "MTZqHbA4FP5UtSTcJWRaxX86PA0",
+      "id": "Ugw7ktfMoD_w1Xqsy0x4AaABAg",
+      "snippet": {
+        "videoId": "gig9-jO7YL4",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "eabse6Smob_7sfD7U5bknMnfiAE",
+          "id": "Ugw7ktfMoD_w1Xqsy0x4AaABAg",
+          "snippet": {
+            "videoId": "gig9-jO7YL4",
+            "textDisplay": "Wow amazing place",
+            "textOriginal": "Wow amazing place",
+            "authorDisplayName": "KH VLOGER YT",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/q8ReV8fagL5O1IYkJYALUJPeM4KqCuKuxCAGVrVRRKqWxZOD0fmGYrBvO7kGZCn7nBCaMauvMkk=s48-c-k-c0x00ffffff-no-rj",
+            "authorChannelUrl": "http://www.youtube.com/channel/UCjn_8OeKE1HcKuKRQXOAfog",
+            "authorChannelId": {
+              "value": "UCjn_8OeKE1HcKuKRQXOAfog"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 0,
+            "publishedAt": "2023-01-14T13:36:43Z",
+            "updatedAt": "2023-01-14T13:36:43Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 0,
+        "isPublic": true
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "etag": "oIlFpH8w7VWKEWqY530ArkArXBM",
+      "id": "Ugy59GczlWqOUOVHq1R4AaABAg",
+      "snippet": {
+        "videoId": "gig9-jO7YL4",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "eokHOGq7CZKMffwoFFQi75b9o8s",
+          "id": "Ugy59GczlWqOUOVHq1R4AaABAg",
+          "snippet": {
+            "videoId": "gig9-jO7YL4",
+            "textDisplay": "Very beautiful view, Mt.Fuji.",
+            "textOriginal": "Very beautiful view, Mt.Fuji.",
+            "authorDisplayName": "with Drone",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/8CDK_GFF8Lax5SUebE2lmK8Jbu0gW1bzVXzqMkcH7q3mNF8qbCXhcwPLA9LIBx1G-thl6_0WbA=s48-c-k-c0x00ffffff-no-rj",
+            "authorChannelUrl": "http://www.youtube.com/channel/UC9fOq_uP_hIzfWR5P8QiRiQ",
+            "authorChannelId": {
+              "value": "UC9fOq_uP_hIzfWR5P8QiRiQ"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 0,
+            "publishedAt": "2023-01-02T14:07:07Z",
+            "updatedAt": "2023-01-02T14:07:07Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 0,
+        "isPublic": true
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "etag": "Bv29YSg8ihtPgR40iFGcupE5qnI",
+      "id": "UgwvfFUBMzc2tusnBJx4AaABAg",
+      "snippet": {
+        "videoId": "gig9-jO7YL4",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "wSV-rPuOqnI9wuzRCPrnHf0bRl0",
+          "id": "UgwvfFUBMzc2tusnBJx4AaABAg",
+          "snippet": {
+            "videoId": "gig9-jO7YL4",
+            "textDisplay": "\u003ca href=\"https://www.youtube.com/watch?v=gig9-jO7YL4&amp;t=4m57s\"\u003e4:57\u003c/a\u003e This is Palestine not Israel.",
+            "textOriginal": "4:57 This is Palestine not Israel.",
+            "authorDisplayName": "ran dom",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AMLnZu9SffZ06YKQGD1LCpuSZUrt7RYVXITnsfPGYCOH5WPYFDo4ZTF91X8bscRYGy9U=s48-c-k-c0x00ffffff-no-rj",
+            "authorChannelUrl": "http://www.youtube.com/channel/UCQLfyqZdyb0hNr5JKZZpsyA",
+            "authorChannelId": {
+              "value": "UCQLfyqZdyb0hNr5JKZZpsyA"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 0,
+            "publishedAt": "2023-01-02T13:23:57Z",
+            "updatedAt": "2023-01-02T13:23:57Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 0,
+        "isPublic": true
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "etag": "xER20e_jRrNg_a8T5QwhEbWozGI",
+      "id": "UgxFN_jswamld0Xjt-V4AaABAg",
+      "snippet": {
+        "videoId": "gig9-jO7YL4",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "njO0vxK-zwy_6FBQhqtvaXS-6O0",
+          "id": "UgxFN_jswamld0Xjt-V4AaABAg",
+          "snippet": {
+            "videoId": "gig9-jO7YL4",
+            "textDisplay": "JERUSALEM IS PALESTINE \u003ca href=\"https://www.youtube.com/watch?v=gig9-jO7YL4&amp;t=4m56s\"\u003e4:56\u003c/a\u003e✌✌✌",
+            "textOriginal": "JERUSALEM IS PALESTINE 4:56✌✌✌",
+            "authorDisplayName": "Mondher",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AMLnZu_2CTg0S37QSSi2KA-SZ1qPxNNaRWK-Db52qJCmNBXNhAXEMoo_6E8RHByIxclA=s48-c-k-c0x00ffffff-no-rj",
+            "authorChannelUrl": "http://www.youtube.com/channel/UCz5L4-ioTggj-lgV5WsmLgw",
+            "authorChannelId": {
+              "value": "UCz5L4-ioTggj-lgV5WsmLgw"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 0,
+            "publishedAt": "2023-01-01T13:46:49Z",
+            "updatedAt": "2023-01-01T13:46:49Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 0,
+        "isPublic": true
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "etag": "u1nsio03ll25DlTTkWe7lz0CjaM",
+      "id": "UgwoXQppHq3uNPan0ZR4AaABAg",
+      "snippet": {
+        "videoId": "gig9-jO7YL4",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "fBk7q8QxBWKEVF2JVoKzouEOxX0",
+          "id": "UgwoXQppHq3uNPan0ZR4AaABAg",
+          "snippet": {
+            "videoId": "gig9-jO7YL4",
+            "textDisplay": "WOooooW!!! Very Amazing places. thank you...please try in my Channel.",
+            "textOriginal": "WOooooW!!! Very Amazing places. thank you...please try in my Channel.",
+            "authorDisplayName": "ejan17",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/1CaEoLy1GKf4Gnfqc351NJv08jBd5eh523q--uP5bZBfTPLuFIWVclnK7THdjVgufYiFGfPNSA=s48-c-k-c0x00ffffff-no-rj",
+            "authorChannelUrl": "http://www.youtube.com/channel/UCA4JCbK1AvtzBlalO_I-0Tw",
+            "authorChannelId": {
+              "value": "UCA4JCbK1AvtzBlalO_I-0Tw"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 0,
+            "publishedAt": "2022-12-27T16:14:22Z",
+            "updatedAt": "2022-12-27T16:14:22Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 0,
+        "isPublic": true
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "etag": "Gq5ox_epQxdmmyFO57HCRzbYCfM",
+      "id": "Ugx6OlZsdK55MZHEEDx4AaABAg",
+      "snippet": {
+        "videoId": "gig9-jO7YL4",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "OBsiQreOhBjxZ3imxrA-MOY3PtM",
+          "id": "Ugx6OlZsdK55MZHEEDx4AaABAg",
+          "snippet": {
+            "videoId": "gig9-jO7YL4",
+            "textDisplay": "es ist ein Werkzeug zum Öffnen von Austern",
+            "textOriginal": "es ist ein Werkzeug zum Öffnen von Austern",
+            "authorDisplayName": "Marrabout26",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AMLnZu-S_Ygqr6PcV_YwRPRSk8nVNUqed9pb3f1uqw=s48-c-k-c0x00ffffff-no-rj",
+            "authorChannelUrl": "http://www.youtube.com/channel/UCSwBsXWBOSpAdRhAiyrDzyA",
+            "authorChannelId": {
+              "value": "UCSwBsXWBOSpAdRhAiyrDzyA"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 0,
+            "publishedAt": "2022-12-26T20:43:59Z",
+            "updatedAt": "2022-12-26T20:43:59Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 0,
+        "isPublic": true
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "etag": "DT1uCz9BRij-TYvL94Ou0z45_S0",
+      "id": "Ugy2VSDG3djrJ0B6izh4AaABAg",
+      "snippet": {
+        "videoId": "gig9-jO7YL4",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "SQzo_Uh2b6-lOyVzjPLMe4_nVOU",
+          "id": "Ugy2VSDG3djrJ0B6izh4AaABAg",
+          "snippet": {
+            "videoId": "gig9-jO7YL4",
+            "textDisplay": "What is the name of the music in the\u003cbr\u003eBrazil part.",
+            "textOriginal": "What is the name of the music in the\nBrazil part.",
+            "authorDisplayName": "Unimand Easti",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AMLnZu9yOwHIoxmfQMYbhpnpg6Hx9SFzVqwDM68ipjHf=s48-c-k-c0x00ffffff-no-rj",
+            "authorChannelUrl": "http://www.youtube.com/channel/UCKzR2ZSSZyTOqxOxix2JAqw",
+            "authorChannelId": {
+              "value": "UCKzR2ZSSZyTOqxOxix2JAqw"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 1,
+            "publishedAt": "2022-12-26T10:26:00Z",
+            "updatedAt": "2022-12-26T10:26:00Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 2,
+        "isPublic": true
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "etag": "9MHJKrdTvsxubRn_E2J_DwUixUc",
+      "id": "UgxrMdJ2o-HR4MEz1gJ4AaABAg",
+      "snippet": {
+        "videoId": "gig9-jO7YL4",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "kzjRyP_E1sBwC9E_XRAh09FpDww",
+          "id": "UgxrMdJ2o-HR4MEz1gJ4AaABAg",
+          "snippet": {
+            "videoId": "gig9-jO7YL4",
+            "textDisplay": "All were breathtaking, stunning, amazing,  wonderful and beautiful places on Earth🌍🌎🌏❤🥰 i was waiting to see Victoria falls, Angel falls, Cappadocia, Pammukale, Manchu Picchu, Salar de Uyuni, Zhangjiajie National park, Vinicunca Peru, Torres del paine, Atacama dessert, Iguazu falls, Chocolate hills, Boracay island, Caño Cristales, Zhangye Danxia landform, Nile River, Lake Baikal and Great barrier Reef and many more....i hope you&#39;ll make another video of natural wonders and also beautiful ancient wonders....❤❤",
+            "textOriginal": "All were breathtaking, stunning, amazing,  wonderful and beautiful places on Earth🌍🌎🌏❤🥰 i was waiting to see Victoria falls, Angel falls, Cappadocia, Pammukale, Manchu Picchu, Salar de Uyuni, Zhangjiajie National park, Vinicunca Peru, Torres del paine, Atacama dessert, Iguazu falls, Chocolate hills, Boracay island, Caño Cristales, Zhangye Danxia landform, Nile River, Lake Baikal and Great barrier Reef and many more....i hope you'll make another video of natural wonders and also beautiful ancient wonders....❤❤",
+            "authorDisplayName": "Laarni Deloria",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AMLnZu8nB9RDfLp7gLo3U0Pv93CCgPSPmJ_UkXxokmzD=s48-c-k-c0x00ffffff-no-rj",
+            "authorChannelUrl": "http://www.youtube.com/channel/UCXlXE7eF1O_IKmKEsfw19dQ",
+            "authorChannelId": {
+              "value": "UCXlXE7eF1O_IKmKEsfw19dQ"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 0,
+            "publishedAt": "2022-12-26T01:49:34Z",
+            "updatedAt": "2022-12-26T01:49:34Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 0,
+        "isPublic": true
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "etag": "_qT7wEfPukBFYfCBIFORuCsFwzg",
+      "id": "UgwoyciNxgqk1xpwf0B4AaABAg",
+      "snippet": {
+        "videoId": "gig9-jO7YL4",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "HprCmRhw4e-JMVzNcZg9iIEgXds",
+          "id": "UgwoyciNxgqk1xpwf0B4AaABAg",
+          "snippet": {
+            "videoId": "gig9-jO7YL4",
+            "textDisplay": "thats not Israel thats palastine",
+            "textOriginal": "thats not Israel thats palastine",
+            "authorDisplayName": "GG Haker",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AMLnZu8j_zb9koR-EE1qYM50Dzj0CvR01a2tymvw-g=s48-c-k-c0x00ffffff-no-rj",
+            "authorChannelUrl": "http://www.youtube.com/channel/UCMqfzwsjlPIgIM_szHZR9fA",
+            "authorChannelId": {
+              "value": "UCMqfzwsjlPIgIM_szHZR9fA"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 0,
+            "publishedAt": "2022-12-17T10:56:01Z",
+            "updatedAt": "2022-12-17T10:56:01Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 0,
+        "isPublic": true
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "etag": "ObLYkoiKLVhPMdsIV94csKjt2tI",
+      "id": "UgyakpYBNOPSLRrmLHl4AaABAg",
+      "snippet": {
+        "videoId": "gig9-jO7YL4",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "KUJB5r3iMNCUglXYkAtgjalvYjs",
+          "id": "UgyakpYBNOPSLRrmLHl4AaABAg",
+          "snippet": {
+            "videoId": "gig9-jO7YL4",
+            "textDisplay": "Great video but I can think of quite a few more beautiful places than the Russian salt lake. Or that polluted Russian lake.\u003cbr\u003eI think the video creators were from Indonesia because there were too many entries that to me weren&#39;t that beautiful. Certainly there are many but not all that were listed. I was going to ask why Yosemite and the grand tetons weren&#39;t listed but you snuck them in.\u003cbr\u003e\u003cbr\u003eBut over the Russian polluted lake and salt lake..\u003cbr\u003eFlorence, \u003cbr\u003eVenice, \u003cbr\u003eGlacier national park, \u003cbr\u003eWind river range, \u003cbr\u003eThe colosseum in Rome, \u003cbr\u003eAny of the great medieval cathedrals of Europe,\u003cbr\u003eThe great smokey mountains,\u003cbr\u003eJust off the top of my head.",
+            "textOriginal": "Great video but I can think of quite a few more beautiful places than the Russian salt lake. Or that polluted Russian lake.\nI think the video creators were from Indonesia because there were too many entries that to me weren't that beautiful. Certainly there are many but not all that were listed. I was going to ask why Yosemite and the grand tetons weren't listed but you snuck them in.\n\nBut over the Russian polluted lake and salt lake..\nFlorence, \nVenice, \nGlacier national park, \nWind river range, \nThe colosseum in Rome, \nAny of the great medieval cathedrals of Europe,\nThe great smokey mountains,\nJust off the top of my head.",
+            "authorDisplayName": "Charles Sanders",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AMLnZu804gq8DlThtoq0xS7ihakJC0X1lrSPnAI28lTH16I=s48-c-k-c0x00ffffff-no-rj",
+            "authorChannelUrl": "http://www.youtube.com/channel/UCouCg_3nnKLcOQfacltyPNg",
+            "authorChannelId": {
+              "value": "UCouCg_3nnKLcOQfacltyPNg"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 0,
+            "publishedAt": "2022-12-12T09:38:49Z",
+            "updatedAt": "2022-12-12T10:11:45Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 0,
+        "isPublic": true
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "etag": "Bs0ujy8WWXze-EosW4ivXNRTWyU",
+      "id": "UgxBNXTPc7-GDTNEsyl4AaABAg",
+      "snippet": {
+        "videoId": "gig9-jO7YL4",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "XlwaDNDvsUTPnC6yiR8WlchQOLg",
+          "id": "UgxBNXTPc7-GDTNEsyl4AaABAg",
+          "snippet": {
+            "videoId": "gig9-jO7YL4",
+            "textDisplay": "Thank you!",
+            "textOriginal": "Thank you!",
+            "authorDisplayName": "Траяна Куманова",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AMLnZu80tPp1c-XXCqw3NVIHYIQuacwOaD1NfnN4ng=s48-c-k-c0x00ffffff-no-rj",
+            "authorChannelUrl": "http://www.youtube.com/channel/UCktqC4LruIVpTVc1PE3bQOA",
+            "authorChannelId": {
+              "value": "UCktqC4LruIVpTVc1PE3bQOA"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 0,
+            "publishedAt": "2022-12-09T19:32:03Z",
+            "updatedAt": "2022-12-09T19:32:03Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 0,
+        "isPublic": true
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "etag": "M6hpYXZfluRczd2IUy21sXcMeU8",
+      "id": "Ugzrqz6Q6h1PMIBqvNt4AaABAg",
+      "snippet": {
+        "videoId": "gig9-jO7YL4",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "EKuHFp-mgCUVtqaDv_RO78GuqxI",
+          "id": "Ugzrqz6Q6h1PMIBqvNt4AaABAg",
+          "snippet": {
+            "videoId": "gig9-jO7YL4",
+            "textDisplay": "GOOD JOB BRO \u003ca href=\"about:invalid#zCSafez\"\u003e\u003c/a\u003e\u003ca href=\"about:invalid#zCSafez\"\u003e\u003c/a\u003e\u003ca href=\"about:invalid#zCSafez\"\u003e\u003c/a\u003e",
+            "textOriginal": "GOOD JOB BRO ",
+            "authorDisplayName": "8K WORLD",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/nv2TFLQWXVLIPLb6ZQ58kjNnwqTOfOOhEb_JY3YpGtaxW35k7RAFqBcTvaFT_ZibK2P_vLXaxcc=s48-c-k-c0x00ffffff-no-rj",
+            "authorChannelUrl": "http://www.youtube.com/channel/UCN9rCKPpgzoB3W7D8yK8RzA",
+            "authorChannelId": {
+              "value": "UCN9rCKPpgzoB3W7D8yK8RzA"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 0,
+            "publishedAt": "2022-12-04T12:44:51Z",
+            "updatedAt": "2022-12-04T12:44:51Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 0,
+        "isPublic": true
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "etag": "gnZBAftGF2qlGQ6nUzucPqnGFRM",
+      "id": "UgwtLaThs2bnBi7R2xN4AaABAg",
+      "snippet": {
+        "videoId": "gig9-jO7YL4",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "3oaSWWdOnRKRJ0zETQI0MbQGf7s",
+          "id": "UgwtLaThs2bnBi7R2xN4AaABAg",
+          "snippet": {
+            "videoId": "gig9-jO7YL4",
+            "textDisplay": "Romania - Bigar cascade falls. Doesn&#39;t exist anymore :(",
+            "textOriginal": "Romania - Bigar cascade falls. Doesn't exist anymore :(",
+            "authorDisplayName": "Asiimov",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AMLnZu-SxuiiF5sBH8ROOlhk3bOMXJ3JMSTzFyW9H4Xumg=s48-c-k-c0x00ffffff-no-rj",
+            "authorChannelUrl": "http://www.youtube.com/channel/UC3bi79JWnK8OtXcVoNrlpXw",
+            "authorChannelId": {
+              "value": "UC3bi79JWnK8OtXcVoNrlpXw"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 0,
+            "publishedAt": "2022-12-03T20:10:30Z",
+            "updatedAt": "2022-12-03T20:10:30Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 0,
+        "isPublic": true
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "etag": "ELkevodLKtIpVC4zXvs0Fvf832M",
+      "id": "UgwP34GAZS-w6jOVxel4AaABAg",
+      "snippet": {
+        "videoId": "gig9-jO7YL4",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "5ktSIEvPq-2urqDTQoBb3H2hRQs",
+          "id": "UgwP34GAZS-w6jOVxel4AaABAg",
+          "snippet": {
+            "videoId": "gig9-jO7YL4",
+            "textDisplay": "Wonderful.\r\u003cbr\u003eMay Allah guide you to happiness ever after. \r\u003cbr\u003e\r\u003cbr\u003ePlease read Holy Quran words of Allah The Most Merciful.\r\u003cbr\u003eMay Allah guide you to the truth\r\u003cbr\u003e\r\u003cbr\u003ePlease read The Amazing Quran By: Dr. Gary Miller",
+            "textOriginal": "Wonderful.\r\nMay Allah guide you to happiness ever after. \r\n\r\nPlease read Holy Quran words of Allah The Most Merciful.\r\nMay Allah guide you to the truth\r\n\r\nPlease read The Amazing Quran By: Dr. Gary Miller",
+            "authorDisplayName": "Sufian AL Dib",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AMLnZu-riadByRxbfLqCSJqgaiVnORDtdJL_DvihI_h9VA=s48-c-k-c0x00ffffff-no-rj",
+            "authorChannelUrl": "http://www.youtube.com/channel/UCYybZdph2oHtusg1LpvR-VQ",
+            "authorChannelId": {
+              "value": "UCYybZdph2oHtusg1LpvR-VQ"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 0,
+            "publishedAt": "2022-12-03T07:20:47Z",
+            "updatedAt": "2022-12-03T07:20:47Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 0,
+        "isPublic": true
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "etag": "7EXg1nu4vbaY0ZGo2EzhvTxhBXM",
+      "id": "UgyR1YB1iYgzq3CV3ut4AaABAg",
+      "snippet": {
+        "videoId": "gig9-jO7YL4",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "wmuGM9FHaPtnvJxmAG5WJ0Yb5xk",
+          "id": "UgyR1YB1iYgzq3CV3ut4AaABAg",
+          "snippet": {
+            "videoId": "gig9-jO7YL4",
+            "textDisplay": "I have to travel😭",
+            "textOriginal": "I have to travel😭",
+            "authorDisplayName": "Benedek Tóth-Sági",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/xANPT-RPkl7u275G7qhGsVShLeEthotWrXXdrP3CY9AOLm7FDd0pb67u0uItew9XPnuPiH6CYg=s48-c-k-c0x00ffffff-no-rj",
+            "authorChannelUrl": "http://www.youtube.com/channel/UCNiA7Di-TfWQukjLzSC4ZNA",
+            "authorChannelId": {
+              "value": "UCNiA7Di-TfWQukjLzSC4ZNA"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 0,
+            "publishedAt": "2022-12-02T17:13:17Z",
+            "updatedAt": "2022-12-02T17:13:17Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 0,
+        "isPublic": true
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "etag": "zfq_sNqutjuu4WuDpHjKUDOS-64",
+      "id": "UgzHQ9EQhBkziPUXFFR4AaABAg",
+      "snippet": {
+        "videoId": "gig9-jO7YL4",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "usDItMn_ko3EG9IpEbFuLAYWfgs",
+          "id": "UgzHQ9EQhBkziPUXFFR4AaABAg",
+          "snippet": {
+            "videoId": "gig9-jO7YL4",
+            "textDisplay": "\u003ca href=\"https://youtube.com/@neturerelaxing\"\u003ehttps://youtube.com/@neturerelaxing\u003c/a\u003e",
+            "textOriginal": "https://youtube.com/@neturerelaxing",
+            "authorDisplayName": "Neture Relaxing",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/VOadZxiYo_3T7Gs6X2FMDCIoL_K2k-g8jKo2vcdDz98KG14g-npwcAIt52KTpPeoy4yQXl19=s48-c-k-c0x00ffffff-no-rj",
+            "authorChannelUrl": "http://www.youtube.com/channel/UC1GHPEr_Fk27pKCCGhdWwhg",
+            "authorChannelId": {
+              "value": "UC1GHPEr_Fk27pKCCGhdWwhg"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 0,
+            "publishedAt": "2022-12-02T02:56:44Z",
+            "updatedAt": "2022-12-02T02:56:44Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 0,
+        "isPublic": true
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "etag": "XX8foiyRDUfPYK6iNqqtE418ADw",
+      "id": "UgxxJf9zSYVrAzVauj14AaABAg",
+      "snippet": {
+        "videoId": "gig9-jO7YL4",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "oQ94xfRz6GtHVoDA9KC-T97q0bg",
+          "id": "UgxxJf9zSYVrAzVauj14AaABAg",
+          "snippet": {
+            "videoId": "gig9-jO7YL4",
+            "textDisplay": "great music with amazing scenery",
+            "textOriginal": "great music with amazing scenery",
+            "authorDisplayName": "Deep Focus Music",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/XzoQJ5XHRgeFecmRUN9ugQxOKSOHC8HfJDUCmjL8zxjXm3LYwLknPNwFDrrtk4-84miygVCpyw=s48-c-k-c0x00ffffff-no-rj",
+            "authorChannelUrl": "http://www.youtube.com/channel/UCPYDSCY4_jNQQpPNvp_EGLA",
+            "authorChannelId": {
+              "value": "UCPYDSCY4_jNQQpPNvp_EGLA"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 0,
+            "publishedAt": "2022-11-30T10:43:44Z",
+            "updatedAt": "2022-11-30T10:43:44Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 0,
+        "isPublic": true
+      }
+    }
+  ]
+}
