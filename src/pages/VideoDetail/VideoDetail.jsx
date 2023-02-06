@@ -14,13 +14,13 @@ const VideoDetail = () => {
   const { title, channelTitle, description, publishedAt } = video.snippet;
   return (
     <div className={styles.detailPage}>
-      <div className="column1">
+      <div className={styles.column1}>
         <Player id={video.id.videoId} />
         <VideoInfo title={title} channelTitle={channelTitle} description={description} publishedAt={publishedAt} />
         <Comments videoId={video.id.videoId} />
       </div>
-      <div className="column2">
-        <RelatedVideoInVideoDetail />
+      <div className={styles.column2}>
+        <RelatedVideoInVideoDetail id={video.id.videoId} />
       </div>
     </div>
   );

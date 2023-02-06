@@ -1,0 +1,18 @@
+.thumbnail {
+  display: flex;
+  position: relative;
+
+  .img {
+    border-radius: 10px;
+  }
+
+  .duration {
+    position: absolute;
+    right: 0.3rem;
+    bottom: 0.3rem;
+    font-size: 0.8rem;
+    background-color: var(--color-black);
+    padding: 0.2rem;
+    border-radius: 5px;
+  }
+}

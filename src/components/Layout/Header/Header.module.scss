@@ -4,7 +4,7 @@ button {
 
 header {
   position: fixed;
-  z-index: 1020;
+  z-index: 1000;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -13,37 +13,6 @@ header {
   height: 56px;
   padding-right: 16px;
   background-color: var(--color-black);
-
-  .headerLeftLogomenu {
-    z-index: 1030;
-    display: flex;
-    align-items: center;
-    width: 250px;
-    padding-left: 16px;
-    background-color: var(--color-black);
-
-    .logo {
-      position: relative;
-
-      &,
-      img {
-        width: 120px;
-        height: 56px;
-      }
-
-      img {
-        padding: 18px 14px 18px 16px;
-      }
-      sup {
-        position: absolute;
-        top: 20%;
-        right: 1px;
-
-        color: var(--color-light-gray);
-        font-size: 10px;
-      }
-    }
-  }
 
   .headerIcon {
     display: block;
@@ -211,6 +180,36 @@ header {
       &.notice {
         display: none;
       }
+    }
+  }
+}
+
+.headerMenu {
+  display: flex;
+  align-items: center;
+  width: 250px;
+  padding-left: 16px;
+  background-color: var(--color-black);
+
+  .logo {
+    position: relative;
+
+    &,
+    img {
+      width: 120px;
+      height: 56px;
+    }
+
+    img {
+      padding: 18px 14px 18px 16px;
+    }
+    sup {
+      position: absolute;
+      top: 20%;
+      right: 1px;
+
+      color: var(--color-light-gray);
+      font-size: 10px;
     }
   }
 }

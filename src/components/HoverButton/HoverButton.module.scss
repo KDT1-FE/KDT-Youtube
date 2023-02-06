@@ -1,0 +1,29 @@
+.list {
+  position: absolute;
+  top: 1.7rem;
+  right: 0;
+  display: flex;
+  flex-direction: column;
+  padding: 0.4rem 0;
+  background-color: var(--color-semi-dark-gray);
+  border-radius: 10px;
+  color: var(--color-white);
+  width: 15rem;
+  z-index: 999;
+
+  .card {
+    display: flex;
+    align-items: center;
+    padding: 0.6rem 1rem;
+    gap: 1rem;
+    font-style: 0.9rem;
+
+    .icon {
+      font-size: 1.5rem;
+    }
+  }
+
+  .card:hover {
+    background-color: var(--color-light-gray);
+  }
+}

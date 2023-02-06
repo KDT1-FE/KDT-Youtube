@@ -1,32 +1,62 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import ChannelInfo from '../ChannelInfo/ChannelInfo';
-// import VideoPlay from '../VideoPlay/VideoPlay';
 import VideoStatistics from '../VideoStatistics/VideoStatistics';
 import styles from './VideoCard.module.scss';
+import VideoThumbnail from '../VideoThumbnail/VideoThumbnail';
+import PlayVideo from '../PlayVideo/PlayVideo';
+import HoverButton from '../HoverButton/HoverButton';
+import { RxDotsVertical } from 'react-icons/rx';
 
-export default function VideoCard({ video }) {
+export default function VideoCard({ video, type }) {
   const { title, thumbnails, channelTitle, publishedAt, description, channelId } = video.snippet;
+  const [videoHover, setVideoHover] = useState(false);
+  const [playVideo, setPlayVideo] = useState(false);
+  const [listOpen, setListOpen] = useState(false);
+
   const { videoId } = video.id;
+
   const navigate = useNavigate();
 
+  const isList = type === 'list';
+
+  let timer;
+
+  const handleMouseHover = async () => {
+    setVideoHover(true);
+    timer = await setTimeout(() => {
+      setPlayVideo(true);
+    }, 100);
+  };
+
+  const handleMouseOut = async () => {
+    setVideoHover(false);
+    clearTimeout(timer);
+    setPlayVideo(false);
+  };
+
+  const goToDetailPage = (event) => {
+    if (event.target.dataset.name !== 'button' && event.target.dataset.name !== 'icon')
+      navigate(`/watch/${video.id.videoId}`, { state: { video: video } });
+  };
+
   return (
-    <li
-      className={styles.video}
-      onClick={() => {
-        // 클릭 시, 해당 동영상으로 이동 및 video 정보 state로 전달
-        // state로 video 정보를 전달할 경우,
-        // 클릭했을때만 정보가 전달 되고 수기로 주소를 직접 작성할 땐 데이터가 전달이 되지 않으니 주의할 것!
-        navigate(`/watch/${video.id.videoId}`, { state: { video: video } });
-      }}
-    >
-      {/* <VideoPlay id={videoId} url={thumbnails.medium.url} title={title} /> */}
-      <img className={styles.video_img} src={thumbnails.medium.url} alt={title} />
+    <li className={styles.video} onClick={goToDetailPage} onMouseOver={handleMouseHover} onMouseOut={handleMouseOut}>
+      <VideoThumbnail id={videoId} url={thumbnails.medium.url} title={title} videoHover={videoHover} isList={isList} />
+      {videoHover && <PlayVideo id={videoId} videoHover={videoHover} />}
       <div className={styles.video_info}>
-        <p className={styles.title}>{title}</p>
+        <div className={styles.video_info_setting}>
+          <p className={styles.title}>{title}</p>
+          {videoHover && (
+            <button className={styles.hoverBtn} data-name="button" onClick={() => setListOpen((prev) => !prev)}>
+              <RxDotsVertical className={styles.icon} data-name="icon" />
+            </button>
+          )}
+          {listOpen ? <HoverButton setListOpen={setListOpen} /> : null}
+        </div>
         <VideoStatistics id={videoId} publishedAt={publishedAt} />
         <ChannelInfo channelId={channelId} title={channelTitle} />
-        <p className={styles.description}>{description}</p>
+        {isList ? null : <p className={styles.description}>{description}</p>}
       </div>
     </li>
   );
