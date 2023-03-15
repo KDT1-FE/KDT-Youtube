@@ -5,7 +5,7 @@ https://docs.google.com/document/d/1vHlO8lgIo1oXBYiecpE8TbG2tHnr3Hmv25UxK_7a5_g/
 
 목표: 유튜브 앱을 만든다.
 
-수행 기간: 오늘 ~ 2023.01.20(금) 까지
+수행 기간: 
 리뷰 기간:
 제출 방법:
 main 혹은 다른 사람의 브랜치로 절대 병합하지 않도록 주의하세요!
